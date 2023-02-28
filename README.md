@@ -21,7 +21,7 @@
 Виды занятий<br/>
 Преподаватели<br/>
 Структура курса</td>
-<td>[https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture00-course-info.pdf](Презентация)</td>
+<td>[Презентация](https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture00-course-info.pdf)</td>
 <td></td>
 </tr>
 
@@ -30,7 +30,7 @@
 <td>Структура российской науки<br/>
 Вузовская наука<br/>
 Как искать себе научного руководителя<br/>
-<td>[https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture01-academic-work-structure.pdf](Презентация)</td>
+<td>[Презентация](https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture01-academic-work-structure.pdf)</td>
 <td></td>
 </tr>
 
@@ -57,7 +57,7 @@
 <tr>
 <td>1</td>
 <td>Анализ литературы с использованием библиографического менеджера</td>
-<td>[https://github.com/itsecd/academic-fundamentals/tree/main/lab-1](Задание и материалы)</td>
+<td>[Задание и материалы](https://github.com/itsecd/academic-fundamentals/tree/main/lab-1)</td>
 </tr>
 
 <tr>
