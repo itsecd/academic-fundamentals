@@ -34,6 +34,15 @@
 <td></td>
 </tr>
 
+<tr>
+<td>2</td>
+<td>Содержание и этапы научного исследования<br/>
+Журналы и конференции<br/>
+Где искать литературу<br/>
+<td><a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture02-research-stages-and-literature.pdf">Презентация</a></td>
+<td></td>
+</tr>
+
 
 </table>
 
