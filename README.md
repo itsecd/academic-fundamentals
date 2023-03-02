@@ -31,7 +31,7 @@
 Вузовская наука<br/>
 Как искать себе научного руководителя<br/>
 <td><a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture01-academic-work-structure.pdf">Презентация</a></td>
-<td><a href="https://youtu.be/tBHvD__szDU">Видео 1</a> <a href="https://youtu.be/ad5zWnXBLCM">Видео 2</a></td>
+<td><a href="https://youtu.be/tBHvD__szDU">Видео 1</a> | <a href="https://youtu.be/ad5zWnXBLCM">Видео 2</a></td>
 </tr>
 
 <tr>
