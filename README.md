@@ -22,7 +22,7 @@
 Преподаватели<br/>
 Структура курса</td>
 <td><a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture00-course-info.pdf">Презентация</a></td>
-<td></td>
+<td><a href="https://youtu.be/FCkcE0lHLyU">Видео</a></td>
 </tr>
 
 <tr>
@@ -31,7 +31,7 @@
 Вузовская наука<br/>
 Как искать себе научного руководителя<br/>
 <td><a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture01-academic-work-structure.pdf">Презентация</a></td>
-<td></td>
+<td>Видео <a href="https://youtu.be/tBHvD__szDU">1</a> <a href="https://youtu.be/ad5zWnXBLCM">2</a></td>
 </tr>
 
 <tr>
