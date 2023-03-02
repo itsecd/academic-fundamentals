@@ -72,7 +72,7 @@
 <tr>
 <td>2</td>
 <td>Оформление научно-технического текста в традиционном текстовом процессоре и в LaTeX</td>
-<td></td>
+<td><a href="https://github.com/itsecd/academic-fundamentals/tree/main/lab-2">Материалы</a></td>
 </tr>
 
 <tr>
