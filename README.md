@@ -40,7 +40,7 @@
 Журналы и конференции<br/>
 Где искать литературу<br/>
 <td><a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture02-research-stages-and-literature.pdf">Презентация</a></td>
-<td><a href="https://youtu.be/gL98OpeDjEg">Видео 1</a></td>
+<td><a href="https://youtu.be/gL98OpeDjEg">Видео 1</a> | <a href="https://youtu.be/wUoiDHKT3Lk">Видео 2</a></td>
 </tr>
 
 
