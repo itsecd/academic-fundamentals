@@ -43,7 +43,17 @@
 <td><a href="https://youtu.be/gL98OpeDjEg">Видео 1</a> | <a href="https://youtu.be/wUoiDHKT3Lk">Видео 2</a></td>
 </tr>
 
-
+<tr>
+<td>3</td>
+<td>Актуальность, новизна и вклад. <br/>
+Защита диссертации<br/>
+Финансирование исследований<br/>
+<td>
+<a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture03-novelty-financing.pdf">Презентация</a><br/>
+<a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture03add1-vak-topics.pdf">Классификатор ВАК</a>
+</td>
+<td><a href="https://youtu.be/7kj57-AAHS8">Видео</a></td>
+</tr>
 </table>
 
 
