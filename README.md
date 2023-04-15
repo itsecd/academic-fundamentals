@@ -62,7 +62,7 @@
 Списки и таблицы<br/>
 <td>
 <a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture04-latex1.pdf">Презентация</a><br/>
-<a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture04-latex1-sample.tex">Пример документа - TeX</a>
+<a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture04-latex1-sample.tex">Пример документа - TeX</a><br/>
 <a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture04-latex1-sample.pdf">Пример документа - PDF</a>
 </td>
 <td></td>
