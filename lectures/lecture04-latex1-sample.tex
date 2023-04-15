@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+
+\usepackage[english, russian]{babel}
+
+\title{Примеры}
+\author{Кипкаева Ольга Сергеевна}
+\date{сегодня}
+
+\begin{document}% \begin - окружение, которое надо закрывать с помощью \end
+
+\maketitle % Заголовок
+
+\section{Формулы} % \section - команда, которую не надо закрывать
+
+Пример 1 $\alpha$\\ % не выносится из текста
+Пример 2 $$\alpha_1$$ % выносится на середину строки
+
+Пример 3 \[\alpha_2\] % выносится на середину строки
+
+Специальные знаки $\%$\\
+
+\section{Списки}
+\subsection*{С заголовками} % раздел не пронумеровался
+\begin{description}
+\item[itemize:] пункты помечаются маркерами;
+\item[enumerate:] пункты нумеруются;
+\item[description:] пункты снабжаются заголовками.
+\end{description}
+
+\subsection{Нумерованный}
+\begin{enumerate}
+\item первый пункт
+\item второй пункт
+\end{enumerate}
+
+\subsection{Маркированный}
+\begin{itemize}
+\item первый пункт
+\item второй пункт
+\end{itemize}
+
+\subsection{Свой}
+\begin{itemize}
+\item[$+$] первый пункт
+\item[$-$] второй пункт
+\end{itemize}
+
+
+\subsection{Вложенный}
+\begin{enumerate}
+\item Нумеруются
+\begin{enumerate}
+\item второй уровень вложенности
+\end{enumerate}
+\item еще один пункт
+\end{enumerate}
+
+\subsection{Ненумерованный}
+\begin{trivlist}
+\item первое
+\item второй
+\item третий
+\end{trivlist}
+
+\section{Таблички}
+\begin{tabular}{|c|c||}
+1 & 5 \\
+\hline
+2 & 3
+\end{tabular}
+\\
+\\
+\\
+\begin{tabular}{|c|c|c|p{6cm}|}
+\hline
+1 & 5 & 6 & 9 \\
+\hline
+3 & 8 & 4 & 2 \\
+\hline
+9 & 5 & 5 & 4\\
+\hline
+\end{tabular}
+
+
+\section{Колонки}
+\begin{minipage}[t]{14mm}
+Левая колонка узкая
+\end{minipage}
+\hfill
+\begin{minipage}[t]{38mm}
+Правая колонка немного шире
+\end{minipage}
+
+
+
+\end{document}

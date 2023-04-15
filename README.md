@@ -54,6 +54,19 @@
 </td>
 <td><a href="https://youtu.be/7kj57-AAHS8">Видео</a></td>
 </tr>
+
+<tr>
+<td>4</td>
+<td>Основы LaTeX<br/>
+Структура документа. Пакеты<br/>
+Списки и таблицы<br/>
+<td>
+<a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture04-latex1.pdf">Презентация</a><br/>
+<a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture04-latex1-sample.tex">Пример документа - TeX</a>
+<a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture04-latex1-sample.pdf">Пример документа - PDF</a>
+</td>
+<td></td>
+</tr>
 </table>
 
 
@@ -96,4 +109,5 @@
 ## Дополнительные материалы
 
 - [Оформление учебных текстовых документов](https://github.com/itsecd/general)
+- [К.В. Воронцов - LaTeX  в примерах](http://www.ccas.ru/voron/download/voron05latex.pdf)
 
