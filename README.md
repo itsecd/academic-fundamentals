@@ -67,7 +67,6 @@
 </td>
 <td></td>
 </tr>
-</table>
 
 <tr>
 <td>4</td>
