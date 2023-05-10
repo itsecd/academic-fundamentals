@@ -119,4 +119,4 @@
 
 - [Оформление учебных текстовых документов](https://github.com/itsecd/general)
 - [К.В. Воронцов - LaTeX  в примерах](http://www.ccas.ru/voron/download/voron05latex.pdf)
-- [Конвертация рукописных формул в LaTeX] https://detexify.kirelabs.org/classify.html
+- [Конвертация рукописных формул в LaTeX](https://detexify.kirelabs.org/classify.html)
