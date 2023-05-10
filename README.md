@@ -69,6 +69,16 @@
 </tr>
 </table>
 
+<tr>
+<td>4</td>
+<td>Подготовка презентации.<br/>
+Выступление с научным докладом<br/>
+<td>
+<a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture05-presentation.pdf">Презентация</a><br/>
+</td>
+<td></td>
+</tr>
+</table>
 
 ## Лабораторные работы
 
@@ -110,4 +120,4 @@
 
 - [Оформление учебных текстовых документов](https://github.com/itsecd/general)
 - [К.В. Воронцов - LaTeX  в примерах](http://www.ccas.ru/voron/download/voron05latex.pdf)
-
+- [Конвертация рукописных формул в LaTeX] https://detexify.kirelabs.org/classify.html
