@@ -60,12 +60,13 @@
 <td>Основы LaTeX<br/>
 Структура документа. Пакеты<br/>
 Списки и таблицы<br/>
+Презентации Beamer<br/>
 <td>
 <a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture04-latex1.pdf">Презентация</a><br/>
 <a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture04-latex1-sample.tex">Пример документа - TeX</a><br/>
 <a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture04-latex1-sample.pdf">Пример документа - PDF</a>
 </td>
-<td></td>
+<td><a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture04-beamer.mp4">Видео (Beamer)</a></td>
 </tr>
 
 <tr>
@@ -77,6 +78,7 @@
 </td>
 <td></td>
 </tr>
+
 </table>
 
 ## Лабораторные работы
