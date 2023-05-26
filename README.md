@@ -75,8 +75,9 @@
 Выступление с научным докладом<br/>
 <td>
 <a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture05-presentation.pdf">Презентация</a><br/>
+<a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture05-presentation-beamer-ulgtu.pdf">Дополнение в контексте Beamer (УлГТУ)</a>
 </td>
-<td></td>
+<td><a href="https://youtu.be/QwojJmvwLgQ">Видео (Beamer)</a></td>
 </tr>
 
 </table>
