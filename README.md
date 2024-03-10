@@ -55,47 +55,35 @@
 <tr>
 <td>1</td>
 <td>Анализ литературы с использованием библиографического менеджера</td>
-<td><a href="https://github.com/itsecd/academic-lab-1">Материалы</a></td>
+<td><a href="https://github.com/itsecd/academic-fundamentals/blob/main/lab-1/">Материалы</a></td>
 </tr>
 
 <tr>
 <td>2</td>
 <td>Оформление научно-технического текста в традиционном текстовом процессоре и в LaTeX</td>
-<td><a href="https://github.com/itsecd/academic-lab-2">Материалы</a></td>
+<td><a href="https://github.com/itsecd/academic-fundamentals/blob/main/lab-2/">Материалы</a></td>
 </tr>
 
 <tr>
 <td>3</td>
 <td>Подготовка презентации и выступление с научным докладом</td>
-<td><a href="https://github.com/itsecd/academic-lab-3">Материалы</a></td>
+<td><a href="https://github.com/itsecd/academic-fundamentals/blob/main/lab-2/">Материалы</a></td>
 </tr>
 
 </table>
 
 ### Репозитории для отправки выполненных заданий в виде pull requests
 
-<table>
-<tr>
-<th># лабы</th>
-<th>Репозитории</th>
-</tr>
+Для корректной идентификации номера лабы и назначения рецензента название PR должно иметь вид `<Номер группы> Lab<ID лабы> <Фамилия 1>  <Фамилия 2>`
 
-<tr>
-<td>1</td>
-<td><a href="https://github.com/itsecd/academic-lab-1">Часть 2</a></td>
-</tr>
-
-<tr>
-<td>2</td>
-<td><a href="https://github.com/itsecd/academic-lab-2">Части 1-2</a> | <a href="https://github.com/itsecd/academic-lab-2-latex">Часть 3(LaTeX)</a></td>
-</tr>
-
-<tr>
-<td>3</td>
-<td><a href="https://github.com/itsecd/academic-lab-3">Часть 1</a> | <a href="https://github.com/itsecd/academic-lab-3-latex">Часть 2(LaTeX)</a></td>
-</tr>
-
-</table>
+Здесь
+- `<Номер группы>` - одно из четырёх значений: `6111, 6112, 6113, 6114`
+- `<ID лабы>` - одно из пяти значений: `1M, 2M, 2L, 3M, 3L`:
+  - `1M` - Лаба 1: базовая часть: должен быть прикреплён документ Word или ссылка на Gdoc
+  - `2M` - Лаба 2: базовая часть: должны быть прикреплены два документа Word
+  - `2L` - Лаба 2: LaTeX: должны быть прикреплены файлы документа LaTeX (обязательно с файлами TEX и PDF)
+  - `3M` - Лаба 3: базовая часть: должны быть прикреплены все требуемые файлы презентаций и рецензий
+  - `3L` - Лаба 3: LaTeX: должны быть прикреплены файлы презентации Beamer (обязательно с файлами TEX и PDF)
 
 ## Дополнительные материалы
 
