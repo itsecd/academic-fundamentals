@@ -55,17 +55,17 @@ jobs:
            In progress
           
      - name: Setting reviewer 
-       if:  (env.GROUP == '6111' || env.GROUP == '6112') && (env.LABEL == '1M' || env.LABEL == '2M' || env.LABEL == '3M')
+       if:  env.GROUP == '6111' || env.GROUP == '6112'
        uses: AveryCameronUofR/add-reviewer-gh-action@1.0.3
        with:
-          reviewers: "vicanfed"
+          reviewers: "IrinFed"
           token: ${{ secrets.GITHUB_TOKEN }}
 
      - name: Setting reviewer
-       if:  (env.GROUP == '6113' || env.GROUP == '6114') && (env.LABEL == '1M' || env.LABEL == '2M' || env.LABEL == '3M')
+       if:  env.GROUP == '6113' || env.GROUP == '6114'
        uses: AveryCameronUofR/add-reviewer-gh-action@1.0.3
        with:
-          reviewers: "IrinFed" 
+          reviewers: "vicanfed" 
           token: ${{ secrets.GITHUB_TOKEN }}
 
      - name: Setting reviewer 
