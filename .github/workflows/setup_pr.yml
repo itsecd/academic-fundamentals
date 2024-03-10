@@ -56,23 +56,14 @@ jobs:
           
      - name: Setting reviewer 
        if:  env.GROUP == '6111' || env.GROUP == '6112'
-       uses: AveryCameronUofR/add-reviewer-gh-action@1.0.3
+       uses: AveryCameronUofR/add-reviewer-gh-action@1.0.4
        with:
           reviewers: "IrinFed"
           token: ${{ secrets.GITHUB_TOKEN }}
 
      - name: Setting reviewer
        if:  env.GROUP == '6113' || env.GROUP == '6114'
-       uses: AveryCameronUofR/add-reviewer-gh-action@1.0.3
+       uses: AveryCameronUofR/add-reviewer-gh-action@1.0.4
        with:
           reviewers: "vicanfed" 
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-     - name: Setting reviewer 
-       if:  env.LABEL == '2L' || env.LABEL == '3L'
-       uses: AveryCameronUofR/add-reviewer-gh-action@1.0.3
-       with:
-          reviewers: "vicanfed"
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-          
+          token: ${{ secrets.GITHUB_TOKEN }}          
