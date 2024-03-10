@@ -1,0 +1,69 @@
+name: Setup PR for code review
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions: write-all
+
+jobs:
+
+  assign:
+    runs-on: ubuntu-latest    
+    steps:
+     - name: Parsing your PR title for lab number
+       env:
+          TITLE: ${{ github.event.pull_request.title }}
+       run: |
+        SUB='Lab'
+        for VAR in 1M 2M 2L 3M 3L
+        do
+            if (echo $TITLE | grep -iqF "$SUB$VAR" )|| (echo $TITLE | grep -iqF "$SUB $VAR"); then
+                echo "LABEL=Lab $VAR" >> "$GITHUB_ENV"
+                break
+            fi      
+        done
+        for VAR in 6111 6112 6113 6114
+        do
+            if (echo $TITLE | grep -iqF "$VAR" ); then
+                echo "GROUP=$VAR" >> "$GITHUB_ENV"
+                break
+            fi      
+        done
+
+     - name: Checking your lab number
+       run: |
+        if [[ $LABEL == '' ]]; then
+            echo "Your PR caption is not composed correctly"
+            exit 1
+        fi
+        echo Your number was parsed correctly - ${{ env.LABEL }}
+
+     - name: Checking your group number
+       run: |
+        if [[ $GROUP == '' ]]; then
+            echo "Your PR caption is not composed correctly"
+            exit 1
+        fi
+        echo Your group was parsed correctly - ${{ env.GROUP }}
+     
+     - name: Setting PR labels
+       uses: actions-ecosystem/action-add-labels@v1
+       with:
+        labels: |
+           ${{ env.LABEL }}
+           In progress
+          
+     - name: Setting reviewer 
+       if:  env.GROUP == '6111' || env.GROUP == '6112'
+       uses: AveryCameronUofR/add-reviewer-gh-action@1.0.4
+       with:
+          reviewers: "IrinFed"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+     - name: Setting reviewer
+       if:  env.GROUP == '6113' || env.GROUP == '6114'
+       uses: AveryCameronUofR/add-reviewer-gh-action@1.0.4
+       with:
+          reviewers: "vicanfed" 
+          token: ${{ secrets.GITHUB_TOKEN }}          
