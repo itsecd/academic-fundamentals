@@ -55,7 +55,7 @@ jobs:
            In progress
           
      - name: Setting reviewer 
-       if:  env.GROUP == '6111' || env.GROUP == '6112'
+       if:  (env.GROUP == '6111' || env.GROUP == '6112') && (env.LABEL == '1M' || env.LABEL == '2M' || env.LABEL == '3M')
        uses: AveryCameronUofR/add-reviewer-gh-action@1.0.4
        with:
           reviewers: "IrinFed"
