@@ -58,7 +58,7 @@ jobs:
        if:  env.GROUP == '6111' || env.GROUP == '6112'
        uses: AveryCameronUofR/add-reviewer-gh-action@1.0.4
        with:
-          reviewers: "IrinFed"
+          reviewers: "mangokate"
           token: ${{ secrets.GITHUB_TOKEN }}
 
      - name: Setting reviewer
