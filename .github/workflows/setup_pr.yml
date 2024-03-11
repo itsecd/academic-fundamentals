@@ -55,21 +55,21 @@ jobs:
            In progress
           
      - name: Setting reviewer 
-       if:  (env.GROUP == '6111' || env.GROUP == '6112') && (env.LABEL == '1M' || env.LABEL == '2M' || env.LABEL == '3M')
+       if:  (env.GROUP == '6111' || env.GROUP == '6112') && (env.LABEL == 'Lab 1M' || env.LABEL == 'Lab 2M' || env.LABEL == 'Lab 3M')
        uses: AveryCameronUofR/add-reviewer-gh-action@1.0.4
        with:
           reviewers: "alxmcs"
           token: ${{ secrets.GITHUB_TOKEN }}
 
      - name: Setting reviewer
-       if:  (env.GROUP == '6113' || env.GROUP == '6114') && (env.LABEL == '1M' || env.LABEL == '2M' || env.LABEL == '3M')
+       if:  (env.GROUP == '6113' || env.GROUP == '6114') && (env.LABEL == 'Lab 1M' || env.LABEL == 'Lab 2M' || env.LABEL == 'Lab 3M')
        uses: AveryCameronUofR/add-reviewer-gh-action@1.0.4
        with:
           reviewers: "vicanfed" 
           token: ${{ secrets.GITHUB_TOKEN }}          
 
      - name: Setting reviewer
-       if:  (env.LABEL == '2L' || env.LABEL == '3L')
+       if:  (env.LABEL == 'Lab 2L' || env.LABEL == 'Lab 3L')
        uses: AveryCameronUofR/add-reviewer-gh-action@1.0.4
        with:
           reviewers: "yzkv" 
