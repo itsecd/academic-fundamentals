@@ -58,7 +58,7 @@ jobs:
        if:  (env.GROUP == '6111' || env.GROUP == '6112') && (env.LABEL == 'Lab 1M' || env.LABEL == 'Lab 2M' || env.LABEL == 'Lab 3M')
        uses: AveryCameronUofR/add-reviewer-gh-action@1.0.4
        with:
-          reviewers: "alxmcs"
+          reviewers: "IrinFed"
           token: ${{ secrets.GITHUB_TOKEN }}
 
      - name: Setting reviewer
