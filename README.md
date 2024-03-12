@@ -72,6 +72,47 @@
 
 </table>
 
+**Сроки сдачи лабораторных работ**
+
+<table>
+<tr>
+<th>Лаба</th>
+<th>Soft deadline</th>
+<th>Hard deadline</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Занятие 2</td>
+<td>Занятие 3</td>
+</tr>
+
+<tr>
+<td>2 базовая часть</td>
+<td>Занятие 3</td>
+<td>Занятие 4</td>
+</tr>
+
+<tr>
+<td>2 LaTeX</td>
+<td>Занятие 4</td>
+<td>Занятие 5</td>
+</tr>
+
+<tr>
+<td>3 базовая часть</td>
+<td>Занятие 4</td>
+<td>Занятие 5</td>
+</tr>
+
+<tr>
+<td>3 LaTeX</td>
+<td>Занятие 5</td>
+<td>Занятие 6</td>
+</tr>
+
+</table>
+
 ### Репозитории для отправки выполненных заданий в виде pull requests
 
 [Краткая справка об отправке pull requests](https://github.com/itsecd/academic-fundamentals/blob/main/github-pr-manual.pdf)
