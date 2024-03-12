@@ -72,5 +72,5 @@ jobs:
        if:  (env.LABEL == 'Lab 2L' || env.LABEL == 'Lab 3L')
        uses: AveryCameronUofR/add-reviewer-gh-action@1.0.4
        with:
-          reviewers: "IrinFed" 
+          reviewers: "Olga1140" 
           token: ${{ secrets.GITHUB_TOKEN }}          
