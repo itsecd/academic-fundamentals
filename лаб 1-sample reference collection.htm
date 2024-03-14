@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'none'; media-src 'none'">
+		<title>Отчет Zotero</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9CgpkaXYgdGFibGUgewoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKfQoKZGl2IHRhYmxlIHRkLCBkaXYgdGFibGUgdGggewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCWJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7Cgl3b3JkLWJyZWFrOiBicmVhay1hbGw7Cn0KCmRpdiB0YWJsZSB0ZCBwOmVtcHR5OjphZnRlciwgZGl2IHRhYmxlIHRoIHA6ZW1wdHk6OmFmdGVyIHsKCWNvbnRlbnQ6ICJcMDBhMCI7Cn0KCmRpdiB0YWJsZSB0ZCAqOmZpcnN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9CgpkaXYgdGFibGUgdGQgKjpsYXN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpsYXN0LWNoaWxkIHsKCW1hcmdpbi1ib3R0b206IDA7Cn0K">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_BYXJGR7L" class="item journalArticle">
+			<h2>A cyber-physical model for SCADA system and its intrusion detection</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Chuan Sheng</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Yu Yao</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Qiang Fu</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Wei Yang</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Supervisory Control and Data Acquisition (SCADA) systems are 
+becoming increasingly susceptible to the so­ phisticated and targeted 
+cyber attacks which are typically carried out by exploiting the 
+vulnerabilities of in­ dustrial control devices or protocols. However, 
+most of the existing network intrusion detection methods only focus on 
+detecting and characterizing cyber attacks against the SCADA system, but
+ cannot fully describe their real impact on the system. In this paper, 
+we propose a cyber-physical model for the SCADA system to detect 
+intrusions from the SCADA network and evaluate their risk levels against
+ the industrial process. The model aims at characterizing the network 
+structure and industrial process of the SCADA system through extracting 
+and correlating the communication patterns and states of ICS devices. 
+And any violation of the model is considered abnormal behavior, which 
+can be caused by false operation or network attacks. Through associating
+ network intrusions with the status of the SCADA system, a risk 
+assessment method is proposed to estimate the potential damage degree of
+ the attack on the system, which provides network administrators with 
+richer information about network attacks. Moreover, the comprehensive 
+performance evaluation conducted on public SCADA network data sets shows
+ that the proposed method outperforms the existing methods in detecting 
+and analyzing various cyber attacks against the SCADA system.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>02/2021</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S1389128620312883">https://linkinghub.elsevier.com/retrieve/pii/S1389128620312883</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 11:08:32</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>185</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>107677</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Computer Networks</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1016/j.comnet.2020.107677">10.1016/j.comnet.2020.107677</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Computer Networks</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>13891286</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>29.02.2024, 11:08:32</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>29.02.2024, 11:11:50</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>SCADA systems</li>
+					<li>IDS</li>
+					<li>Risk level</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_UHPUFIEY">
+<div><div data-schema-version="8"><p>В этой статье предлагается 
+киберфизическая модель системы SCADA lдля обнаружения вторжений из сети 
+SCADA и оцеки их уровней риска.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_6ZU2U59C">Sheng и др. - 2021 - A cyber-physical model for SCADA system and its in.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_LRDA557Z" class="item conferencePaper">
+			<h2>A hybrid model for anomaly-based intrusion detection in SCADA networks</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Документ конференции</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Imtiaz Ullah</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Qusay H. Mahmoud</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Supervisory Control and Data Acquisition (SCADA) systems 
+complexity and interconnectivity increase in recent years have exposed 
+the SCADA networks to numerous potential vulnerabilities. Several 
+studies have shown that anomaly-based Intrusion Detection Systems (IDS) 
+achieves improved performance to identify unknown or zero-day attacks. 
+In this paper, we propose a hybrid model for anomalybased intrusion 
+detection in SCADA networks using machine learning approach. In the 
+first part, we present a robust hybrid model for anomaly-based intrusion
+ detection in SCADA networks. Finally, we present a feature selection 
+model for anomaly-based intrusion detection in SCADA networks by 
+removing redundant and irrelevant features. Irrelevant features in the 
+dataset can affect modeling power and reduce predictive accuracy. These 
+models were evaluated using an industrial control system dataset 
+developed at the Distributed Analytics and Security Institute 
+Mississippi State University Starkville, MS, USA. The experimental 
+results show that our proposed model has a key effect in reducing the 
+time and computational complexity and achieved improved accuracy and 
+detection rate. The accuracy of our proposed model was measured as 99.5 %
+ for specific-attack-labeled.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>12/2017</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="http://ieeexplore.ieee.org/document/8258164/">http://ieeexplore.ieee.org/document/8258164/</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 11:08:26</td>
+					</tr>
+					<tr>
+					<th>Место</th>
+						<td>Boston, MA</td>
+					</tr>
+					<tr>
+					<th>Издатель</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-5386-2715-0</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>2160-2167</td>
+					</tr>
+					<tr>
+					<th>Назв. трудов</th>
+						<td>2017 IEEE International Conference on Big Data (Big Data)</td>
+					</tr>
+					<tr>
+					<th>Назв. конфер.</th>
+						<td>2017 IEEE International Conference on Big Data (Big Data)</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1109/BigData.2017.8258164">10.1109/BigData.2017.8258164</a></td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>29.02.2024, 11:08:26</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>29.02.2024, 11:10:25</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>SCADA systems</li>
+					<li>IDS</li>
+					<li>machine learning</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_ADDR4PCW">
+<div><div data-schema-version="8"><p>Здесь представлена гибридная модель обнаружения аномалий, которая обнаруживает опастность с вероятностью 99,5%</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_CKL9UP37">Ullah и Mahmoud - 2017 - A hybrid model for anomaly-based intrusion detecti.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_GS298BLZ" class="item journalArticle">
+			<h2>A Review of Research Work on Network-Based SCADA Intrusion Detection Systems</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Slavica V. Bostjancic Rakas</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Mirjana D. Stojanovic</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Jasna D. Markovic-Petrovic</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Speciﬁc intrusion detection systems (IDSs) are needed to 
+secure modern supervisory control and data acquisition (SCADA) systems 
+due to their architecture, stringent real-time requirements, network 
+trafﬁc features and speciﬁc application layer protocols. This article 
+aims to contribute to assess the state-ofthe-art, identify the open 
+issues and provide an insight for future study areas. To achieve these 
+objectives, we start from the factors that impact the design of 
+dedicated intrusion detection systems in SCADA networks and focus on 
+network-based IDS solutions. We propose a structured evaluation 
+methodology that encompasses detection techniques, protected protocols, 
+implementation tools, test environments and IDS performance. Special 
+attention is focused on assessing implementation maturity as well as the
+ applicability of each surveyed solution in the Future Internet 
+environment. Based on that, we provide a brief description and 
+evaluation of 26 selected research papers, published in the period 
+2015–2019. Results of our analysis indicate considerable progress 
+regarding the development of machine learning-based detection methods, 
+implementation platforms, and to some extent, sophisticated testbeds. We
+ also identify research gaps and conclude the analysis with a list of 
+the most important directions for further research.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://ieeexplore.ieee.org/document/9094250/">https://ieeexplore.ieee.org/document/9094250/</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 10:30:10</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>93083-93108</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>IEEE Access</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1109/ACCESS.2020.2994961">10.1109/ACCESS.2020.2994961</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>IEEE Access</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2169-3536</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>29.02.2024, 10:30:10</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>29.02.2024, 10:40:10</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>SCADA systems</li>
+					<li>IDS</li>
+					<li>Anomaly-based detection</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_RUWVT9KU">
+<div><div data-schema-version="8"><pre dir="ltr">Цель этой статьи – помочь оценить современное состояние, выявить открытые проблемы и дать представление о будущих областях исследования</pre>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_YQ7FGA4M">Rakas и др. - 2020 - A Review of Research Work on Network-Based SCADA I.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CBWZW54Z" class="item journalArticle">
+			<h2>A Review of Research Works on Supervised Learning Algorithms for SCADA Intrusion Detection and Classification</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Oyeniyi Akeem Alimi</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Khmaies Ouahada</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Adnan M. Abu-Mahfouz</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Suvendi Rimer</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Kuburat Oyeranti Adefemi Alimi</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Supervisory Control and Data Acquisition (SCADA) systems play a
+ signiﬁcant role in providing remote access, monitoring and control of 
+critical infrastructures (CIs) which includes electrical power systems, 
+water distribution systems, nuclear power plants, etc. The growing 
+interconnectivity, standardization of communication protocols and remote
+ accessibility of modern SCADA systems have contributed massively to the
+ exposure of SCADA systems and CIs to various forms of security 
+challenges. Any form of intrusive action on the SCADA modules and 
+communication networks can create devastating consequences on nations 
+due to their strategic importance to CIs’ operations. Therefore, the 
+prompt and efﬁcient detection and classiﬁcation of SCADA systems 
+intrusions hold great importance for national CIs operational stability.
+ Due to their well-recognized and documented efﬁciencies, several 
+literature works have proposed numerous supervised learning techniques 
+for SCADA intrusion detection and classiﬁcation (IDC). This paper 
+presents a critical review of recent studies whereby supervised learning
+ techniques were modelled for SCADA intrusion solutions. The paper aims 
+to contribute to the state-of-the-art, recognize critical open issues 
+and offer ideas for future studies. The intention is to provide a 
+research-based resource for researchers working on industrial control 
+systems security. The analysis and comparison of different supervised 
+learning techniques for SCADA IDC systems were critically reviewed, in 
+terms of the methodologies, datasets and testbeds used, feature 
+engineering and optimization mechanisms and classiﬁcation procedures. 
+Finally, we brieﬂy summarized some suggestions and recommendations for 
+future research works.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2021-08-26</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://www.mdpi.com/2071-1050/13/17/9597">https://www.mdpi.com/2071-1050/13/17/9597</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 10:30:15</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>13</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>9597</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Sustainability</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.3390/su13179597">10.3390/su13179597</a></td>
+					</tr>
+					<tr>
+					<th>Выпуск</th>
+						<td>17</td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Sustainability</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2071-1050</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>29.02.2024, 10:30:15</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:06:47</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>SCADA systems</li>
+					<li>artificial neural network</li>
+					<li>support vector machine</li>
+					<li>Intrusion detection system</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_JS476ZZX">
+<div><div data-schema-version="8"><p>Это краткий анализ всех недавных исследований в области обнаружения опастностей с представленными сравнением и критикой</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_YQ8DCKLR">Alimi и др. - 2021 - A Review of Research Works on Supervised Learning .pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_E9FMT3WP" class="item journalArticle">
+			<h2>A SCADA system for energy management in intelligent buildings</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>João Figueiredo</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>José Sá da Costa</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>This paper develops an energy management platform for 
+intelligent buildings using a SCADA system (Supervisory Control and Data
+ Acquisition). This SCADA system integrates different types of 
+information coming from the several technologies present in modern 
+buildings (control of ventilation, temperature, illumination, etc.). The
+ developed control strategy implements an hierarchical cascade 
+controller where inner loops are performed by local PLC (Programmable 
+Logic Controller), and the outer loop is managed by a centralized SCADA 
+system, which interacts with the entire local PLC network. In this paper
+ a predictive controller is implemented above the centralized SCADA 
+platform. Tests applied to the control of temperature and luminosity in 
+huge-area rooms are presented. The developed predictive controller 
+optimizes the satisfaction of user explicit preferences coming from 
+several distributed user-interfaces, subjected to the overall 
+constraints of energy waste minimization. In order to run the predictive
+ controller with the SCADA platform a communication channel was 
+developed to allow communication between the SCADA system and the Matlab
+ application where the predictive controller runs.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2012-06-01</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>ScienceDirect</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://www.sciencedirect.com/science/article/pii/S0378778812000722">https://www.sciencedirect.com/science/article/pii/S0378778812000722</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>13.03.2024, 18:16:57</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>49</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>85-98</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Energy and Buildings</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1016/j.enbuild.2012.01.041">10.1016/j.enbuild.2012.01.041</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Energy and Buildings</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0378-7788</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>13.03.2024, 18:16:57</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 18:21:29</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>SCADA systems</li>
+					<li>Building Automation</li>
+					<li>Predictive Control</li>
+					<li>Energy management</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_PVVIV4S8">
+<div><div data-schema-version="8"><pre dir="ltr">В данной статье разрабатывается платформа управления энергопотреблением для интеллектуальных зданий с использованием системы SCADA</pre>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_XY9A58NH">Полный текст					</li>
+					<li id="item_YCPMWXI5">ScienceDirect Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_7VK8FRGJ" class="item journalArticle">
+			<h2>An Autoencoder-Based Network Intrusion Detection System for the SCADA System</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Mustafa Altaha</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Jae-Myeong Lee</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Aslam Muhammad</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Sugwon Hong</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>The intrusion detection system (IDS) is the main tool to do 
+security monitoring that is one of the security strategies for the 
+supervisory control and data acquisition (SCADA) system. In this paper, 
+we develop an IDS based on the autoencoder deep learning model (AE-IDS) 
+for the SCADA system. The target SCADA communication protocol of the 
+detection model is the Distributed Network Protocol 3 (DNP3), which is 
+currently the most commonly utilized communication protocol in the power
+ substation. Cyberattacks that we consider are data injection or 
+modification attacks, which are the most critical attacks in the SCADA 
+systems. In this paper, we extracted 17 data features from DNP3 
+communication, and use them to train the autoencoder network. We measure
+ accuracy and loss of detection and compare them with different 
+supervised deep learning algorithms. The unsupervised AE-IDS model shows
+ better performance than the other deep learning IDS models.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2021-06-01</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>ResearchGate</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>16</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>210-216</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Journal of Communications</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.12720/jcm.16.6.210-216">10.12720/jcm.16.6.210-216</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Journal of Communications</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>29.02.2024, 10:14:43</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:05:21</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>SCADA systems</li>
+					<li>IDS</li>
+					<li>Network intrusion detection system</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_9PUGLNMM">
+<div><div data-schema-version="8"><p>Разработка IDS на основе глубокого обучения автоэнкодера на базе протокола распределённой сети(DNP3)</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_PTJRDSUN">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_BINET3S8" class="item journalArticle">
+			<h2>Architecture and security of SCADA systems: A review</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Geeta Yadav</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Kolin Paul</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Pipeline bursting, production lines shut down, frenzy traffic,
+ trains confrontation, the nuclear reactor shut down, disrupted electric
+ supply, interrupted oxygen supply in ICU –thesecatastrophic events 
+could result because of an erroneous SCADA system/ Industrial Control 
+System (ICS). SCADA systems have become an essential part of automated 
+control and monitoring of Critical Infrastructures (CI). Modern SCADA 
+systems have evolved from standalone systems into sophisticated, 
+complex, open systems connected to the Internet. This geographically 
+distributed modern SCADA system is more vulnerable to threats and cyber 
+attacks than traditional SCADA. Traditional SCADA systems were less 
+exposed to Internet threats as they operated on isolated networks. Over 
+the years, an increase in the number of cyber-attacks against the SCADA 
+systems seeks security researchers’ attention towards their security. In
+ this review paper, we first review the SCADA system architectures and 
+comparative analysis of proposed/implemented communication protocols, 
+followed by attacks on such systems to understand and highlight the 
+evolving security needs for SCADA systems. A short investigation of the 
+current state of intrusion detection techniques in SCADA systems is 
+done, followed by a brief study of testbeds for SCADA systems. The cloud
+ and Internet of things (IoT) based SCADA systems are studied by 
+analyzing modern SCADA systems’ architecture. In the end, the review 
+paper highlights the critical research problems that need to be resolved
+ to close the security gaps in SCADA systems.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>09/2021</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Краткое назв.</th>
+						<td>Architecture and security of SCADA systems</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S1874548221000251">https://linkinghub.elsevier.com/retrieve/pii/S1874548221000251</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 10:30:13</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>34</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>100433</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>International Journal of Critical Infrastructure Protection</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1016/j.ijcip.2021.100433">10.1016/j.ijcip.2021.100433</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>International Journal of Critical Infrastructure Protection</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>18745482</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>29.02.2024, 10:30:13</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>29.02.2024, 10:52:06</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>SCADA systems</li>
+					<li>IDS</li>
+					<li>SCADA attacks</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_JYDJHGGA">
+<div><div data-schema-version="8"><p>После проведения атак на современные SCADA системы проводится анализ развивающихся потребностей в безопастности систем SCADA.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_W5ZFWV6T">Yadav и Paul - 2021 - Architecture and security of SCADA systems A revi.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6YSICNFH" class="item journalArticle">
+			<h2>Cyber-Physical Integrated Intrusion Detection Scheme in SCADA System of Process Manufacturing Industry</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Junlei Qian</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Xueqiang Du</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Bo Chen</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Bin Qu</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Kai Zeng</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Jianpeng Liu</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Most Intrusion Detection System(IDS) used in Supervisory 
+Control and Data Acquisition (SCADA) systems now are focused on the 
+cyber ﬁeld but ignored the process states in physical ﬁeld of the 
+plants. Attacks aiming at the protocol trafﬁcs can be detected but 
+attacks aiming at the processes are difﬁcult to be detected such as the 
+Man In The Middle (MITM) attacks and the Replay attacks. We propose a 
+scheme in both cyber way and physical way to detect the above attacks. 
+Validation of process states is used to detect malicious behaviors to 
+prevent the physical components from being damaged which can be caused 
+by MITM, Replay, and Zero-day attacks. Nonparallel hyperplane based 
+fuzzy classiﬁer is presented to realize the classiﬁcation of branching 
+shaped data sets which are difﬁcult to be classiﬁed by two parallel 
+hyperplane of Support Vector Machine(SVM) to detect attacks caused by 
+DoS (SYN ﬂood) and other attacks in cyber ﬁeld. Modbus/TCP trafﬁc data 
+are used to test the algorithm and simulation process states are used to
+ test the validation part and the performance of this hybrid scheme is 
+excellent.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://ieeexplore.ieee.org/document/9165106/">https://ieeexplore.ieee.org/document/9165106/</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:41:19</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>147471-147481</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>IEEE Access</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1109/ACCESS.2020.3015900">10.1109/ACCESS.2020.3015900</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>IEEE Access</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2169-3536</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>29.02.2024, 9:41:19</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>29.02.2024, 10:41:27</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>IDS</li>
+					<li>Cyber attack</li>
+					<li>ICS</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_EYCA3UFD">
+<div><div data-schema-version="8"><p>Создание способа обнаружения не только в киберпространстве, но и в физическом поле для атак по типу человек посередине(MITM)</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_7RAELVNZ">Qian и др. - 2020 - Cyber-Physical Integrated Intrusion Detection Sche.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_HYUK3LLG" class="item conferencePaper">
+			<h2>Intrusion detection in SCADA systems using machine learning techniques</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Документ конференции</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Leandros A. Maglaras</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Jianmin Jiang</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>In this paper we present a intrusion detection module capable 
+of detecting malicious network trafﬁc in a SCADA (Supervisory Control 
+and Data Acquisition) system. Malicious data in a SCADA system disrupt 
+its correct functioning and tamper with its normal operation. OCSVM 
+(One-Class Support Vector Machine) is an intrusion detection mechanism 
+that does not need any labeled data for training or any information 
+about the kind of anomaly is expecting for the detection process. This 
+feature makes it ideal for processing SCADA environment data and 
+automate SCADA performance monitoring. The OCSVM module developed is 
+trained by network traces off line and detect anomalies in the system 
+real time. The module is part of an IDS (Intrusion Detection System) 
+system developed under CockpitCI project and communicates with the other
+ parts of the system by the exchange of IDMEF (Intrusion Detection 
+Message Exchange Format) messages that carry information about the 
+source of the incident, the time and a classiﬁcation of the alarm.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>8/2014</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://ieeexplore.ieee.org/document/6918252">https://ieeexplore.ieee.org/document/6918252</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 11:08:29</td>
+					</tr>
+					<tr>
+					<th>Место</th>
+						<td>London, UK</td>
+					</tr>
+					<tr>
+					<th>Издатель</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-9893193-1-7 978-0-9893193-3-1 978-0-9893193-2-4</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>626-631</td>
+					</tr>
+					<tr>
+					<th>Назв. трудов</th>
+						<td>2014 Science and Information Conference</td>
+					</tr>
+					<tr>
+					<th>Назв. конфер.</th>
+						<td>2014 Science and Information Conference (SAI)</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1109/SAI.2014.6918252">10.1109/SAI.2014.6918252</a></td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>29.02.2024, 11:08:29</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>29.02.2024, 11:09:49</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>SCADA systems</li>
+					<li>IDS</li>
+					<li>OCSVM</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_8EXPEQUP">
+<div><div data-schema-version="8"><p>Здесь представляют модуль, который обнаруживает вредосные программы и аномалии, обучается автономно.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_P8S8AM2P">Maglaras и Jiang - 2014 - Intrusion detection in SCADA systems using machine.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_JX7JB48B" class="item journalArticle">
+			<h2>Intrusion detection system: A comprehensive review</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Hung-Jen Liao</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Chun-Hung Richard Lin</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Ying-Chih Lin</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Kuang-Yuan Tung</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>With the increasing amount of network throughput and security 
+threat, the study of intrusion detection systems (IDSs) has received a 
+lot of attention throughout the computer science ﬁeld. Current IDSs pose
+ challenges on not only capricious intrusion categories, but also huge 
+computational power. Though there is a number of existing literatures to
+ IDS issues, we attempt to give a more elaborate image for a 
+comprehensive review. Through the extensive survey and sophisticated 
+organization, we propose the taxonomy to outline modern IDSs. In 
+addition, tables and ﬁgures we summarized in the content contribute to 
+easily grasp the overall picture of IDSs.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>1/2013</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Краткое назв.</th>
+						<td>Intrusion detection system</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S1084804512001944">https://linkinghub.elsevier.com/retrieve/pii/S1084804512001944</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 10:30:07</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>36</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>16-24</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Journal of Network and Computer Applications</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1016/j.jnca.2012.09.004">10.1016/j.jnca.2012.09.004</a></td>
+					</tr>
+					<tr>
+					<th>Выпуск</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Journal of Network and Computer Applications</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>10848045</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>29.02.2024, 10:30:07</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:07:07</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>IDS</li>
+					<li>Anomaly-based detection</li>
+					<li>Intrusion detection system</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_B2GEFR9D">
+<div><div data-schema-version="8"><p>Здесь представлена современная таксонометрия IDS с помощью графиков и таблиц.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_Z9SZL7IL">Liao и др. - 2013 - Intrusion detection system A comprehensive review.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_S72YXRU6" class="item journalArticle">
+			<h2>Survey of intrusion detection systems: techniques, datasets and challenges</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Ansam Khraisat</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Iqbal Gondal</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Peter Vamplew</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Joarder Kamruzzaman</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Cyber-attacks are becoming more sophisticated and thereby 
+presenting increasing challenges in accurately detecting intrusions. 
+Failure to prevent the intrusions could degrade the credibility of 
+security services, e.g. data confidentiality, integrity, and 
+availability. Numerous intrusion detection methods have been proposed in
+ the literature to tackle computer security threats, which can be 
+broadly classified into Signature-based Intrusion Detection Systems 
+(SIDS) and Anomaly-based Intrusion Detection Systems (AIDS). This survey
+ paper presents a taxonomy of contemporary IDS, a comprehensive review 
+of notable recent works, and an overview of the datasets commonly used 
+for evaluation purposes. It also presents evasion techniques used by 
+attackers to avoid detection and discusses future research challenges to
+ counter such techniques so as to make computer systems more secure.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>12/2019</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Краткое назв.</th>
+						<td>Survey of intrusion detection systems</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://cybersecurity.springeropen.com/articles/10.1186/s42400-019-0038-7">https://cybersecurity.springeropen.com/articles/10.1186/s42400-019-0038-7</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 10:30:05</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>20</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Cybersecurity</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1186/s42400-019-0038-7">10.1186/s42400-019-0038-7</a></td>
+					</tr>
+					<tr>
+					<th>Выпуск</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Cybersecur</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2523-3246</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>29.02.2024, 10:30:05</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:06:19</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>IDS</li>
+					<li>Anomaly-based detection</li>
+					<li>Intrusion detection system</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_3JA8C2VY">
+<div><div data-schema-version="8"><p>В этой статье представлена 
+таксонометрия всех существующих IDS, также представлены методы 
+уклонения, используемые злоумышленниками.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_E98ETDFC">Khraisat и др. - 2019 - Survey of intrusion detection systems techniques,.pdf					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>
