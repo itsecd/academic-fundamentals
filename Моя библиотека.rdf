@@ -1,0 +1,675 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0020025510004056">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0020-0255"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chang</foaf:surname>
+                        <foaf:givenName>Ting-Yi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hwang</foaf:surname>
+                        <foaf:givenName>Min-Shiang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Wei-Pang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_105"/>
+        <link:link rdf:resource="#item_106"/>
+        <dc:subject>3PAKE</dc:subject>
+        <dc:subject>Authentication</dc:subject>
+        <dc:subject>Criptography</dc:subject>
+        <dc:subject>Password</dc:subject>
+        <dc:title>A communication-efficient three-party password authenticated key exchange protocol</dc:title>
+        <dcterms:abstract>Three-party password authenticated key exchange (3PAKE) protocols allow two users (clients) to establish a session key through an authentication server over an insecure channel. Clients only share an easy-to-remember password with the trusted server. In the related literature, most schemes employ the server public keys to ensure the identities of both the servers and symmetric cryptosystems to encrypt the messages. This paper describes an efficient 3PAKE based on LHL-3PAKE proposed by Lee et al. Our 3PAKE requires neither the server public keys nor symmetric cryptosystems such as DES. The formal proof of security of our 3PAKE is based on the computational Diffie–Hellman assumption in the random oracle model along with a parallel version of the proposed 3PAKE. The comparisons have shown that our 3PAKE is more practical than other 3PAKEs.</dcterms:abstract>
+        <dc:date>2011</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0020025510004056</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:23:45</dcterms:dateSubmitted>
+        <dc:description>Number: 1</dc:description>
+        <bib:pages>217-226</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0020-0255">
+        <prism:volume>181</prism:volume>
+        <dc:title>Information Sciences</dc:title>
+        <dc:identifier>DOI 10.1016/j.ins.2010.08.032</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Information Sciences</dcterms:alternative>
+        <dc:identifier>ISSN 0020-0255</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_105">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Новый предложенный протокол обмена ключами с трехсторонней аутентификацией по паролю, а также его параллельная версия без использования асимметричных или симметричных криптосистем, представляют собой значительное улучшение по сравнению с существующими схемами. Тщательный анализ безопасности позволил более глубоко исследовать основания безопасности. Протоколы соответствуют высоким стандартам безопасности и удовлетворяют всем необходимым требованиям.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_106">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/106/Chang и др. - 2011 - A communication-efficient three-party password aut.pdf"/>
+        <dc:title>Chang и др. - 2011 - A communication-efficient three-party password aut.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+        <dc:description>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Был предложен новыйпротокол обмена ключами с трехсторонней аутентификацией по паролю, а также его параллельная версия без использования асимметричных или симметричных криптосистем, представляющих собой значительное улучшение по сравнению с существующими схемами. Тщательный анализ безопасности позволил более глубоко исследовать основания безопасности данной системы. Протоколы соответствуют высоким стандартам безопасности и удовлетворяют всем необходимым требованиям.&lt;/p&gt;
+&lt;/div&gt;</dc:description>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0020025510000083">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>180</prism:volume>
+                <dc:title>Information Sciences</dc:title>
+                <dc:identifier>DOI 10.1016/j.ins.2010.01.005</dc:identifier>
+                <prism:number>9</prism:number>
+                <dcterms:alternative>Information Sciences</dcterms:alternative>
+                <dc:identifier>ISSN 0020-0255</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Tian-Fu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hwang</foaf:surname>
+                        <foaf:givenName>Tzonelih</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_108"/>
+        <link:link rdf:resource="#item_109"/>
+        <dc:subject>3PAKE</dc:subject>
+        <dc:subject>Authentication</dc:subject>
+        <dc:subject>Communicating protocol</dc:subject>
+        <dc:subject>Password change protocol</dc:subject>
+        <dc:subject>Three-party key exchange</dc:subject>
+        <dc:title>Simple password-based three-party authenticated key exchange without server public keys</dc:title>
+        <dcterms:abstract>Password-based three-party authenticated key exchange protocols are extremely important to secure communications and are now extensively adopted in network communications. These protocols allow users to communicate securely over public networks simply by using easy-to-remember passwords. In considering authentication between a server and user, this study categorizes password-based three-party authenticated key exchange protocols into explicit server authentication and implicit server authentication. The former must achieve mutual authentication between a server and users while executing the protocol, while the latter only achieves authentication among users. This study presents two novel, simple and efficient three-party authenticated key exchange protocols. One protocol provides explicit server authentication, and the other provides implicit server authentication. The proposed protocols do not require server public keys. Additionally, both protocols have proven secure in the random oracle model. Compared with existing protocols, the proposed protocols are more efficient and provide greater security.</dcterms:abstract>
+        <dc:date>2010</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0020025510000083</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:27:45</dcterms:dateSubmitted>
+        <dc:description>Number: 9</dc:description>
+        <bib:pages>1702-1714</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_108">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Это исследование продемонстрировало, что протокол S-3PAKE уязвим для атак с подбором пароля в автономном режиме.&lt;/p&gt;
+&lt;p&gt;Поэтому были предложены 2 новых протокола, основанных на базе 3PAKE, которые не требуют открытые ключи сервера лишен проблемы протоколов предшевствующих поколений.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_109">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/109/Lee и Hwang - 2010 - Simple password-based three-party authenticated ke.pdf"/>
+        <dc:title>Lee и Hwang - 2010 - Simple password-based three-party authenticated ke.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0164121207003135">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0164-1212"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Tzung-Her</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Wei-Bin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Hsing-Bai</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_111"/>
+        <link:link rdf:resource="#item_112"/>
+        <dc:subject>3PAKE</dc:subject>
+        <dc:subject>Authenticated key exchange</dc:subject>
+        <dc:subject>Authentication</dc:subject>
+        <dc:subject>Key Agreement Protocol</dc:subject>
+        <dc:subject>Security Key Exchange</dc:subject>
+        <dc:title>A round- and computation-efficient three-party authenticated key exchange protocol</dc:title>
+        <dcterms:abstract>In three-party authenticated key exchange protocols, each client shares a secret only with a trusted server with assists in generating a session key used for securely sending messages between two communication clients. Compared with two-party authenticated key exchange protocols where each pair of parties must share a secret with each other, a three-party protocol does not cause any key management problem for the parties. In the literature, mainly there exist three issues in three-party authenticated key exchange protocols are discussed that need to be further improved: (1) to reduce latency, communication steps in the protocol should be as parallel as possible; (2) as the existence of a security-sensitive table on the server side may cause the server to become compromised, the table should be removed; (3) resources required for computation should be as few as possible to avoid the protocol to become an efficiency bottleneck. In various applications over networks, a quick response is required especially by light-weight clients in the mobile e-commerce. In this paper, a round- and computation-efficient three-party authenticated key exchange protocol is proposed which fulfils all of the above mentioned requirements.</dcterms:abstract>
+        <dc:date>2008</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0164121207003135</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:30:50</dcterms:dateSubmitted>
+        <dc:description>Number: 9</dc:description>
+        <bib:pages>1581-1590</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0164-1212">
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Gauging the progress of Software Architecture research: three selected papers from Working IEEE/IFIP Conference on Software Architecture (WICSA) 200</dc:title>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <prism:volume>81</prism:volume>
+        <dc:title>Journal of Systems and Software</dc:title>
+        <dc:identifier>DOI 10.1016/j.jss.2007.11.720</dc:identifier>
+        <prism:number>9</prism:number>
+        <dcterms:alternative>Journal of Systems and Software</dcterms:alternative>
+        <dc:identifier>ISSN 0164-1212</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_111">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В данной статье предлагается новый протокол 3PAKE, который будет проходить в меньше этапов, что скажется в лучшую сторону на скорость работы протокола.&lt;/p&gt;
+&lt;p&gt;Также этот протокол будет удовлетворять всем современным требованиям безопасности.&lt;/p&gt;
+&lt;p&gt;Помимо быстроты работы новому протоколу потребуется меньше вычислительной мощности.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_112">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/112/Chen и др. - 2008 - A round- and computation-efficient three-party aut.pdf"/>
+        <dc:title>Chen и др. - 2008 - A round- and computation-efficient three-party aut.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0030401809011316">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0030-4018"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chong</foaf:surname>
+                        <foaf:givenName>Song-Kong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hwang</foaf:surname>
+                        <foaf:givenName>Tzonelih</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_114"/>
+        <link:link rdf:resource="#item_115"/>
+        <dc:subject>Authentication</dc:subject>
+        <dc:subject>Key agreement</dc:subject>
+        <dc:subject>Password change protocol</dc:subject>
+        <dc:subject>Protokol QKA</dc:subject>
+        <dc:title>Quantum key agreement protocol based on BB84</dc:title>
+        <dcterms:abstract>This work presents a quantum key agreement (QKA) based on the BB84 protocol. The newly proposed QKA protocol enables two involved parties to jointly establish a shared secret key in such a way that the shared secret key cannot be fully determined by one party alone. In contrast to the traditional key agreement protocols that must be based on some mathematical difficulties, the security of the newly proposed protocol is based on the quantum phenomena, which allows unconditional security as well as detection of eavesdroppers. With the technique of delayed measurement, the proposed protocol has 50% qubit efficiency. Therefore, it is very efficient and feasible for practical applications.</dcterms:abstract>
+        <dc:date>2010</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0030401809011316</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:33:30</dcterms:dateSubmitted>
+        <dc:description>Number: 6</dc:description>
+        <bib:pages>1192-1195</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0030-4018">
+        <prism:volume>283</prism:volume>
+        <dc:title>Optics Communications</dc:title>
+        <dc:identifier>DOI 10.1016/j.optcom.2009.11.007</dc:identifier>
+        <prism:number>6</prism:number>
+        <dcterms:alternative>Optics Communications</dcterms:alternative>
+        <dc:identifier>ISSN 0030-4018</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_114">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Предложенный протокол QKA помогает двум пользователям устанавливать секретный ключ совместно, чтобы в этом не участвовала только одна сторона.&lt;/p&gt;
+&lt;p&gt;Также в статье описывается то, что работа других алгоритмы основывается на матемаических вычислениях, а безопасность нового протокола будет зависеть только от квантовых явлений, что позволит повысить степень безопасности.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_115">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/115/Chong и Hwang - 2010 - Quantum key agreement protocol based on BB84.pdf"/>
+        <dc:title>Chong и Hwang - 2010 - Quantum key agreement protocol based on BB84.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0020025509005064">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                       <dc:title>Special Issue on Modelling Uncertainty</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <prism:volume>180</prism:volume>
+                <dc:title>Information Sciences</dc:title>
+                <dc:identifier>DOI 10.1016/j.ins.2009.11.036</dc:identifier>
+                <prism:number>6</prism:number>
+                <dcterms:alternative>Information Sciences</dcterms:alternative>
+                <dc:identifier>ISSN 0020-0255</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Lei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Futai</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Qianhong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Domingo-Ferrer</foaf:surname>
+                        <foaf:givenName>Josep</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_117"/>
+        <link:link rdf:resource="#item_118"/>
+        <dc:subject>Authenticated key agreement</dc:subject>
+        <dc:subject>Authentication</dc:subject>
+        <dc:subject>Password change protocol</dc:subject>
+        <dc:subject>Protokol AKA</dc:subject>
+        <dc:subject>Protokol KA</dc:subject>
+        <dc:subject>Two-party key exchange</dc:subject>
+        <dc:title>Simulatable certificateless two-party authenticated key agreement protocol</dc:title>
+        <dcterms:abstract>Key agreement (KA) allows two or more users to negotiate a secret session key among them over an open network. Authenticated key agreement (AKA) is a KA protocol enhanced to prevent active attacks. AKA can be achieved using a public-key infrastructure (PKI) or identity-based cryptography. However, the former suffers from a heavy certificate management burden while the latter is subject to the so-called key escrow problem. Recently, certificateless cryptography was introduced to mitigate these limitations. In this paper, we first propose a security model for AKA protocols using certificateless cryptography. Following this model, we then propose a simulatable certificateless two-party AKA protocol. Security is proven under the standard computational Diffie–Hellman (CDH) and bilinear Diffie–Hellman (BDH) assumptions. Our protocol is efficient and practical, because it requires only one pairing operation and five multiplications by each party.</dcterms:abstract>
+        <dc:date>2010</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0020025509005064</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:34:50</dcterms:dateSubmitted>
+        <dc:description>Number: 6</dc:description>
+        <bib:pages>1020-1030</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_117">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В этой статье рассказывается о протоколе обмена аутентифицировнными паролями между двумя пользователями.&lt;/p&gt;
+&lt;p&gt;А именно усовершенстование протокола AKA, который является улучшенной версией KA для предотвращения активных атак. &lt;/p&gt;
+&lt;p&gt;Протокол был усовершенстован с помощью бессертификационной криптографии.&lt;/p&gt;
+&lt;p&gt;Предлагаемый протокол доказал свою безопасность при некоторых хорошо изученных предположениях.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_118">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/118/Zhang и др. - 2010 - Simulatable certificateless two-party authenticate.pdf"/>
+        <dc:title>Zhang и др. - 2010 - Simulatable certificateless two-party authenticate.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0167404803001147">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0167-4048"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenName>Chun-Li</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hwang</foaf:surname>
+                        <foaf:givenName>Tzonelih</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_120"/>
+        <link:link rdf:resource="#item_121"/>
+        <dc:subject>Password</dc:subject>
+        <dc:subject>Password authentication</dc:subject>
+        <dc:subject>Password change protocol</dc:subject>
+        <dc:title>A password authentication scheme with secure password updating</dc:title>
+        <dcterms:abstract>Recently, Hwang and Yeh proposed an improvement on the Peyravian-Zunic password scheme. The Hwang-Yeh scheme comprises a password authentication protocol, a password change protocol, and can also provide key distribution. Though the Hwang-Yeh scheme repaired several security problems of the Peyravian-Zunic scheme, it has several security problems: the password change protocol in the Hwang-Yeh scheme is vulnerable to a denial of service attack; and it does not provide the forward secrecy property in session key distribution. Furthermore, we shall fix the Hwang-Yeh scheme to avoid these problems.</dcterms:abstract>
+        <dc:date>2003</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0167404803001147</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:35:49</dcterms:dateSubmitted>
+        <dc:description>Number: 1</dc:description>
+        <bib:pages>68-72</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0167-4048">
+        <prism:volume>22</prism:volume>
+        <dc:title>Computers &amp; Security</dc:title>
+        <dc:identifier>DOI 10.1016/S0167-4048(03)00114-7</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Computers &amp; Security</dcterms:alternative>
+        <dc:identifier>ISSN 0167-4048</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_120">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Усовершенстование предложенной в то время новой схемы паролей, которая обладает большим рядом преимуществ, но не лишена недостатков, которые должны быть проанализированы и исправлены.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_121">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/121/Lin и Hwang - 2003 - A password authentication scheme with secure passw.pdf"/>
+        <dc:title>Lin и Hwang - 2003 - A password authentication scheme with secure passw.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S1071581907000560">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1071-5819"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vu</foaf:surname>
+                        <foaf:givenName>Kim-Phuong L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Proctor</foaf:surname>
+                        <foaf:givenName>Robert W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bhargav-Spantzel</foaf:surname>
+                        <foaf:givenName>Abhilasha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tai</foaf:surname>
+                        <foaf:givenName>Bik-Lam (Belin)</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cook</foaf:surname>
+                        <foaf:givenName>Joshua</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eugene Schultz</foaf:surname>
+                        <foaf:givenName>E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_123"/>
+        <link:link rdf:resource="#item_124"/>
+        <dc:subject>Password</dc:subject>
+        <dc:subject>Password Authentication</dc:subject>
+        <dc:subject>Password Restrictions</dc:subject>
+        <dc:subject>Password Security</dc:subject>
+        <dc:title>Improving password security and memorability to protect personal and organizational information</dc:title>
+        <dcterms:abstract>Personal information and organizational information need to be protected, which requires that only authorized users gain access to the information. The most commonly used method for authenticating users who attempt to access such information is through the use of username–password combinations. However, this is a weak method of authentication because users tend to generate passwords that are easy to remember but also easy to crack. Proactive password checking, for which passwords must satisfy certain criteria, is one method for improving the security of user-generated passwords. The present study evaluated the time and number of attempts needed to generate unique passwords satisfying different restrictions for multiple accounts, as well as the login time and accuracy for recalling those passwords. Imposing password restrictions alone did not necessarily lead to more secure passwords. However, the use of a technique for which the first letter of each word of a sentence was used coupled with a requirement to insert a special character and digit yielded more secure passwords that were more memorable.</dcterms:abstract>
+        <dc:date>2007</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S1071581907000560</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:36:37</dcterms:dateSubmitted>
+        <dc:description>Number: 8</dc:description>
+        <bib:pages>744-757</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1071-5819">
+        <prism:volume>65</prism:volume>
+        <dc:title>International Journal of Human-Computer Studies</dc:title>
+        <dc:identifier>DOI 10.1016/j.ijhcs.2007.03.007</dc:identifier>
+        <prism:number>8</prism:number>
+        <dcterms:alternative>International Journal of Human-Computer Studies</dcterms:alternative>
+        <dc:identifier>ISSN 1071-5819</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_123">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Чаще всего пользователи авторизуются по сочетанию логин-пароль.&lt;/p&gt;
+&lt;p&gt;Такая схема ненадежна, поэтому в статье продится исследование насчёт времени, необходимого для создания надёжного пароля.&lt;/p&gt;
+&lt;p&gt;Также влияние ограничений на пароль на его надёжность.&lt;/p&gt;
+&lt;p&gt;Но при этом должно сохраняться баланс между запоминемостью и безопасностью созданного пароля.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_124">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/124/Vu и др. - 2007 - Improving password security and memorability to pr.pdf"/>
+        <dc:title>Vu и др. - 2007 - Improving password security and memorability to pr.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0164121203003224">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                        <dc:title>Software Engineering Education and Training</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <prism:volume>75</prism:volume>
+                <dc:title>Journal of Systems and Software</dc:title>
+                <dc:identifier>DOI 10.1016/j.jss.2003.11.017</dc:identifier>
+                <prism:number>1</prism:number>
+                <dcterms:alternative>Journal of Systems and Software</dcterms:alternative>
+                <dc:identifier>ISSN 0164-1212</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sun</foaf:surname>
+                        <foaf:givenName>Hung-Min</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Bing-Chang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hwang</foaf:surname>
+                        <foaf:givenName>Tzonelih</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_126"/>
+        <link:link rdf:resource="#item_127"/>
+        <dc:subject>Key Agreement Protocol</dc:subject>
+        <dc:subject>Protocol EKE</dc:subject>
+        <dc:subject>Security Key Exchange</dc:subject>
+        <dc:title>Secure key agreement protocols for three-party against guessing attacks</dc:title>
+        <dcterms:abstract>Key exchange protocol is important for sending secret messages using the session key between two parties. In order to reach the objective, the premise is to generate a session key securely. Encryption key exchange was first proposed to generate a session key with a weak authenticated password against guessing attacks. Next, another authenticated key exchange protocols for three-party, two clients who request the session key and one server who authenticates the user's identity and assist in generating a session key, were proposed. In this paper, we focus on the three-party authenticated key exchange protocol. In addition to analyzing and improving a password-based authenticated key exchange protocol, a new verified-based protocol is also proposed.</dcterms:abstract>
+        <dc:date>2005</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0164121203003224</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:43:09</dcterms:dateSubmitted>
+        <dc:description>Number: 1</dc:description>
+        <bib:pages>63-68</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_126">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В данной статье рассматривается протокол обмена аутентифицированными ключами между тремя сторонами.&lt;/p&gt;
+&lt;p&gt; Предложены 2 протокола на этой основе, а именно улучшенный трехсторонний EKE и протокол согласования ключей на основе трехстороннего верификатора.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_127">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/127/Sun и др. - 2005 - Secure key agreement protocols for three-party aga.pdf"/>
+        <dc:title>Sun и др. - 2005 - Secure key agreement protocols for three-party aga.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0022000013001426">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0022-0000"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xue</foaf:surname>
+                        <foaf:givenName>Kaiping</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hong</foaf:surname>
+                        <foaf:givenName>Peilin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ma</foaf:surname>
+                        <foaf:givenName>Changsha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_129"/>
+        <link:link rdf:resource="#item_130"/>
+        <dc:subject>Authentication</dc:subject>
+        <dc:subject>Key Agreement Protocol</dc:subject>
+        <dc:subject>Multi-server architecture</dc:subject>
+        <dc:title>A lightweight dynamic pseudonym identity based authentication and key agreement protocol without verification tables for multi-server architecture</dc:title>
+        <dcterms:abstract>Traditional password based authentication schemes are mostly considered in single-server environments. They are unfit for the multi-server environments from two aspects. Recently, base on Sood et al.ʼs protocol (2011), Li et al. proposed an improved dynamic identity based authentication and key agreement protocol for multi-server architecture (2012). Li et al. claim that the proposed scheme can make up the security weaknesses of Sood et al.ʼs protocol. Unfortunately, our further research shows that Li et al.ʼs protocol contains several drawbacks and cannot resist some types of known attacks. In this paper, we further propose a lightweight dynamic pseudonym identity based authentication and key agreement protocol for multi-server architecture. In our scheme, service providing servers donʼt need to maintain verification tables for users. The proposed protocol provides not only the declared security features in Li et al.ʼs paper, but also some other security features, such as traceability and identity protection.</dcterms:abstract>
+        <dc:date>2014</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0022000013001426</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:44:14</dcterms:dateSubmitted>
+        <dc:description>Number: 1</dc:description>
+        <bib:pages>195-206</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0022-0000">
+        <prism:volume>80</prism:volume>
+        <dc:title>Journal of Computer and System Sciences</dc:title>
+        <dc:identifier>DOI 10.1016/j.jcss.2013.07.004</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Journal of Computer and System Sciences</dcterms:alternative>
+        <dc:identifier>ISSN 0022-0000</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_129">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Традиционные методы аутентификации с использованием паролей в основном применяются в односерверных средах и неэффективны в многосерверных средах. Предлагается новый алгоритм, основанный на динамических псевдонимах и согласовании ключей, специально разработанный для многосерверной архитектуры.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_130">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/130/Xue и др. - 2014 - A lightweight dynamic pseudonym identity based aut.pdf"/>
+        <dc:title>Xue и др. - 2014 - A lightweight dynamic pseudonym identity based aut.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+        <dc:description>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Традиционные методы аутентификации с использованием паролей в основном применяются в односерверных средах и неэффективны в многосерверных средах. &lt;/p&gt;
+&lt;p&gt;В связи с этим редлагается новый алгоритм, основанный на динамических псевдонимах и согласовании ключей, специально разработанный для многосерверной архитектуры.&lt;/p&gt;
+&lt;/div&gt;</dc:description>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0020025508000698">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>178</prism:volume>
+                <dc:title>Information Sciences</dc:title>
+                <dc:identifier>DOI 10.1016/j.ins.2008.02.008</dc:identifier>
+                <prism:number>13</prism:number>
+                <dcterms:alternative>Information Sciences</dcterms:alternative>
+                <dc:identifier>ISSN 0020-0255</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Phan</foaf:surname>
+                        <foaf:givenName>Raphael C. -W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yau</foaf:surname>
+                        <foaf:givenName>Wei-Chuen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goi</foaf:surname>
+                        <foaf:givenName>Bok-Min</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_132"/>
+        <link:link rdf:resource="#item_133"/>
+        <dc:subject>3PAKE</dc:subject>
+        <dc:subject>Attacks</dc:subject>
+        <dc:subject>Authenticated key exchange</dc:subject>
+        <dc:subject>Authentication</dc:subject>
+        <dc:subject>Three-party</dc:subject>
+        <dc:title>Cryptanalysis of simple three-party key exchange protocol (S-3PAKE)</dc:title>
+        <dcterms:abstract>Password-authenticated key exchange (PAKE) protocols allow parties to share secret keys in an authentic manner based on an easily memorizable password. Recently, Lu and Cao proposed a three-party password-authenticated key exchange protocol, so called S-3PAKE, based on ideas of the Abdalla and Pointcheval two-party SPAKE extended to three parties. S-3PAKE can be seen to have a structure alternative to that of another three-party PAKE protocol (3PAKE) by Abdalla and Pointcheval. Furthermore, a simple improvement to S-3PAKE was proposed very recently by Chung and Ku to resist the kind of attacks that applied to earlier versions of 3PAKE. In this paper, we show that S-3PAKE falls to unknown key-share attacks by any other client, and undetectable online dictionary attacks by any adversary. The latter attack equally applies to the recently improved S-3PAKE. Indeed, the provable security approach should be taken when designing PAKEs; and furthermore our results highlight that extra cautions still be exercised when defining models and constructing proofs in this direction.</dcterms:abstract>
+        <dc:date>2008</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0020025508000698</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:45:48</dcterms:dateSubmitted>
+        <dc:description>Number: 13</dc:description>
+        <bib:pages>2849-2856</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_132">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Предложена иновационный протокол S-3PAKE (усовершенствование 3PAKE или PAKE). &lt;/p&gt;
+&lt;p&gt;Предложили простое усовершенствование S-3PAKE, чтобы противостоять атакам, которые применялись к более ранним версиям 3PAKE.&lt;/p&gt;
+&lt;p&gt;Хоть разработчики и обсждали модель нового протокола, но безопасность S-3PAKE не была официально доказана в рамках доказуемой модели безопасности.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_133">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/133/Phan и др. - 2008 - Cryptanalysis of simple three-party key exchange p.pdf"/>
+        <dc:title>Phan и др. - 2008 - Cryptanalysis of simple three-party key exchange p.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
