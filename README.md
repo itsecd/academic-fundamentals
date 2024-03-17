@@ -36,6 +36,30 @@
 
 </table>
 
+*Лекции по LaTeX*
+
+<table>
+<tr>
+<th>№</th>
+<th>Тема</th>
+<th>Презентация</th>
+<th>Видеозапись</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Основы LaTeX<br/>
+Структура документа. Пакеты<br/>
+Списки и таблицы</td>
+<td>
+<a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture-latex1.tex">Пример документа - TeX</a><br/>
+<a href="https://github.com/itsecd/academic-fundamentals/blob/main/lectures/lecture-latex1.pdf">Пример документа - PDF</a>
+</td>
+<td><a href="https://youtu.be/A8JqEQ8TWOM">Видео</a>
+</td>
+</tr>
+
+
 ## Лабораторные работы
 
 ### Ссылки на общие файлы
