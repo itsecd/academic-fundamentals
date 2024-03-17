@@ -36,7 +36,7 @@
 
 </table>
 
-*Лекции по LaTeX*
+### Лекции по LaTeX
 
 <table>
 <tr>
@@ -58,6 +58,7 @@
 <td><a href="https://youtu.be/A8JqEQ8TWOM">Видео</a>
 </td>
 </tr>
+</table>
 
 
 ## Лабораторные работы
