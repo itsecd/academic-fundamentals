@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'none'; media-src 'none'">
+		<title>Отчет Zotero</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9CgpkaXYgdGFibGUgewoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKfQoKZGl2IHRhYmxlIHRkLCBkaXYgdGFibGUgdGggewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCWJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7Cgl3b3JkLWJyZWFrOiBicmVhay1hbGw7Cn0KCmRpdiB0YWJsZSB0ZCBwOmVtcHR5OjphZnRlciwgZGl2IHRhYmxlIHRoIHA6ZW1wdHk6OmFmdGVyIHsKCWNvbnRlbnQ6ICJcMDBhMCI7Cn0KCmRpdiB0YWJsZSB0ZCAqOmZpcnN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9CgpkaXYgdGFibGUgdGQgKjpsYXN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpsYXN0LWNoaWxkIHsKCW1hcmdpbi1ib3R0b206IDA7Cn0K">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_PAT7BRAL" class="item journalArticle">
+			<h2>3D Object Recognition and Pose Estimation From Point Cloud Using Stably Observed Point Pair Feature</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Deping Li</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Hanyun Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Ning Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Xiaoming Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Jin Xu</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Recognition and pose estimation from 3D free-form objects is a
+ key step for autonomous robotic manipulation. Recently, the point pair 
+features (PPF) voting approach has been shown to be effective for 
+simultaneous object recognition and pose estimation. However, the global
+ model descriptor (e.g., PPF and its variants) that contained some 
+unnecessary point pair features decreases the recognition performance 
+and increases computational efﬁciency. To address this issue, in this 
+paper, we introduce a novel strategy for building a global model 
+descriptor using stably observed point pairs. The stably observed point 
+pairs are calculated from the partial view point clouds which are 
+rendered by the virtual camera from various viewpoints. The global model
+ descriptor is extracted from the stably observed point pairs and then 
+stored in a hash table. Experiments on several datasets show that our 
+proposed method reduces redundant point pair features and achieves 
+better compromise of speed vs accuracy.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://ieeexplore.ieee.org/document/9024052/">https://ieeexplore.ieee.org/document/9024052/</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:11:29</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>IEEE Access</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1109/ACCESS.2020.2978255">10.1109/ACCESS.2020.2978255</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>IEEE Access</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2169-3536</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>13.03.2024, 17:21:59</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:21:59</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>point cloud</li>
+					<li>point pair feature</li>
+					<li>3D pose estimation</li>
+					<li>3D object recognition</li>
+					<li>Recognition</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_JTEGXFIC">
+<div><div data-schema-version="8"><p>В этой статье приведено решение проблемы, в том что <span style="color: rgb(0, 0, 0)"><span style="background-color: rgb(7, 28, 71);"> дескриптор глобальной модели, содержащий некоторые ненужные функции пары точек, снижает производительность распознавания.</span></span></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_BPHUSX4Y">Li и др. - 2020 - 3D Object Recognition and Pose Estimation From Poi.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_7UKLLVSI" class="item journalArticle">
+			<h2>3D Point Cloud for Objects and Scenes Classification, Recognition, Segmentation, and Reconstruction: A Review</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Omar Elharrouss</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Kawther Hassine</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Ayman Zayyan</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Zakariyae Chatri</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Somaya Al-Maadeed</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Khalid Abualsaud</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Three-dimensional (3D) point cloud analysis has become one of 
+the attractive subjects in realistic imaging and machine visions due to 
+its simplicity, flexibility and powerful capacity of visualization. 
+Actually, the representation of scenes and buildings using 3D shapes and
+ formats leveraged many applications among which automatic driving, 
+scenes and objects reconstruction, etc. Nevertheless, working with this 
+emerging type of data has been a challenging task for objects 
+representation, scenes recognition, segmentation, and reconstruction. In
+ this regard, a significant effort has recently been devoted to 
+developing novel strategies, using different techniques such as deep 
+learning models. To that end, we present in this paper a comprehensive 
+review of existing tasks on 3D point cloud: a well-defined taxonomy of 
+existing techniques is performed based on the nature of the adopted 
+algorithms, application scenarios, and main objectives. Various tasks 
+performed on 3D point could data are investigated, including objects and
+ scenes detection, recognition, segmentation, and reconstruction. In 
+addition, we introduce a list of used datasets, discuss respective 
+evaluation metrics, and compare the performance of existing solutions to
+ better inform the state-of-the-art and identify their limitations and 
+strengths. Lastly, we elaborate on current challenges facing the subject
+ of technology and future trends attracting considerable interest, which
+ could be a starting point for upcoming research studies.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2023-06-12</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Краткое назв.</th>
+						<td>3D Point Cloud for Objects and Scenes Classification, Recognition, Segmentation, and Reconstruction</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://ojs.wiserpub.com/index.php/CCDS/article/view/2722">https://ojs.wiserpub.com/index.php/CCDS/article/view/2722</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:10:58</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>40</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Cloud Computing and Data Science</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.37256/ccds.4220232722">10.37256/ccds.4220232722</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Cloud Computing and Data Science</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2737-4092, 2737-4106</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>13.03.2024, 17:21:37</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:21:37</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>3D object and scene reconstruction.</li>
+					<li>3D object recognition.</li>
+					<li>3D object segmentation.</li>
+					<li>point cloud</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_YKEHZICA">
+<div><div data-schema-version="8"><p>В этой статье представлен всесторонний обзор существующих задач по трехмерному облаку точек</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_6HFFQ32U">Elharrouss и др. - 2023 - 3D Point Cloud for Objects and Scenes Classificati.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_JPNQEFZH" class="item journalArticle">
+			<h2>CVML-Pose: Convolutional VAE Based Multi-Level Network for Object 3D Pose Estimation</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Jianyu Zhao</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Edward Sanderson</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Bogdan J. Matuszewski</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Most vision-based 3D pose estimation approaches typically rely
+ on knowledge of object’s 3D model, depth measurements, and often 
+require time-consuming iterative refinement to improve accuracy. 
+However, these can be seen as limiting factors for broader real-life 
+applications. The main motivation for this paper is to address these 
+limitations. To solve this, a novel Convolutional Variational 
+AutoEncoder based Multi-Level Network for object 3D pose estimation 
+(CVML-Pose) method is proposed. Unlike most other methods, the proposed 
+CVML-Pose implicitly learns an object’s 3D pose from only RGB images 
+encoded in its latent space without knowing the object’s 3D model, depth
+ information, or performing a post-refinement. CVML-Pose consists of two
+ main modules: (i) CVML-AE representing convolutional variational 
+autoencoder, whose role is to extract features from RGB images, (ii) 
+Multi-Layer Perceptron and K-Nearest Neighbor regressors mapping the 
+latent variables to object 3D pose including, respectively, rotation and
+ translation. The proposed CVML-Pose has been evaluated on the LineMod 
+and LineMod-Occlusion benchmark datasets. It has been shown to 
+outperform other methods based on latent representations and achieves 
+comparable results to the state-of-the-art, but without use of a 3D 
+model or depth measurements. Utilizing the t-Distributed Stochastic 
+Neighbor Embedding algorithm, the CVML-Pose latent space is shown to 
+successfully represent objects’ category and topology. This opens up a 
+prospect of integrated estimation of pose and other attributes (possibly
+ also including surface finish or shape variations), which, with 
+real-time processing due to the absence of iterative refinement, can 
+facilitate various robotic applications. Code available: 
+https://github.com/JZhao12/CVML-Pose.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2023</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Краткое назв.</th>
+						<td>CVML-Pose</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://ieeexplore.ieee.org/document/10040668/">https://ieeexplore.ieee.org/document/10040668/</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:11:12</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>11</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>17</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>IEEE Access</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1109/ACCESS.2023.3243551">10.1109/ACCESS.2023.3243551</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>IEEE Access</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2169-3536</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>13.03.2024, 17:21:47</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:21:47</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>3D pose estimation</li>
+					<li>deep learning</li>
+					<li>synthetic data.</li>
+					<li>variational autoencoder</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_KETQHGJI">
+<div><div data-schema-version="8"><p>Основной мотивацией данной статьи 
+является устранение ограничений, связанных &nbsp;с трудоемкой доработкой
+ при оценке 3D объекта.</p>
+</div></div>
+					</li>
+					<li id="item_WHVIQIQ8">
+<p class="plaintext"></p>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_D3TEAU5F">Zhao и др. - 2023 - CVML-Pose Convolutional VAE Based Multi-Level Net.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_APEQ6VLN" class="item conferencePaper">
+			<h2>DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Документ конференции</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Chen Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Danfei Xu</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Yuke Zhu</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Roberto Martin-Martin</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Cewu Lu</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Li Fei-Fei</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Silvio Savarese</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>A key technical challenge in performing 6D object pose 
+estimation from RGB-D image is to fully leverage the two complementary 
+data sources. Prior works either extract information from the RGB image 
+and depth separately or use costly post-processing steps, limiting their
+ performances in highly cluttered scenes and real-time applications. In 
+this work, we present DenseFusion, a generic framework for estimating 6D
+ pose of a set of known objects from RGBD images. DenseFusion is a 
+heterogeneous architecture that processes the two data sources 
+individually and uses a novel dense fusion network to extract pixel-wise
+ dense feature embedding, from which the pose is estimated. Furthermore,
+ we integrate an end-to-end iterative pose reﬁnement procedure that 
+further improves the pose estimation while achieving near real-time 
+inference. Our experiments show that our method outperforms 
+state-of-the-art approaches in two datasets, YCB-Video and LineMOD. We 
+also deploy our proposed method to a real robot to grasp and manipulate 
+objects based on the estimated pose. Our code and video are available at
+ https://sites.google.com/view/densefusion/.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>6/2019</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Краткое назв.</th>
+						<td>DenseFusion</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://ieeexplore.ieee.org/document/8953386/">https://ieeexplore.ieee.org/document/8953386/</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:11:15</td>
+					</tr>
+					<tr>
+					<th>Место</th>
+						<td>Long Beach, CA, USA</td>
+					</tr>
+					<tr>
+					<th>Издатель</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-72813-293-8</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>Назв. трудов</th>
+						<td>2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</td>
+					</tr>
+					<tr>
+					<th>Назв. конфер.</th>
+						<td>2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1109/CVPR.2019.00346">10.1109/CVPR.2019.00346</a></td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>13.03.2024, 17:21:50</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:21:50</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>6D Object Pose Estimation</li>
+					<li>Architecture Overview</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_8MBRZRDG">
+<div><div data-schema-version="8"><p>В этой статье &nbsp;представлена общая структура для оценки положения 6D- набора известных объектов по изображениям RGBD.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_7L7BDA3A">Wang и др. - 2019 - DenseFusion 6D Object Pose Estimation by Iterativ.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_W64LP3QA" class="item journalArticle">
+			<h2>Efficient Center Voting for Object Detection and 6D Pose Estimation in 3D Point Cloud</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Jianwei Guo</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Xuejun Xing</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Weize Quan</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Dong-Ming Yan</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Qingyi Gu</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Yang Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Xiaopeng Zhang</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>We present a novel and efﬁcient approach to estimate 6D object
+ poses of known objects in complex scenes represented by point clouds. 
+Our approach is based on the well-known point pair feature (PPF) 
+matching, which utilizes self-similar point pairs to compute potential 
+matches and thereby cast votes for the object pose by a voting scheme. 
+The main contribution of this paper is to present an improved PPF-based 
+recognition framework, especially a new center voting strategy based on 
+the relative geometric relationship between the object center and point 
+pair features. Using this geometric relationship, we ﬁrst generate votes
+ to object centers resulting in vote clusters near real object centers. 
+Then we group and aggregate these votes to generate a set of pose 
+hypotheses. Finally, a pose veriﬁcation operator is performed to ﬁlter 
+out false positives and predict appropriate 6D poses of the target 
+object. Our approach is also suitable to solve the multi-instance and 
+multi-object detection tasks. Extensive experiments on a variety of 
+challenging benchmark datasets demonstrate that the proposed algorithm 
+is discriminative and robust towards similar-looking distractors, sensor
+ noise, and geometrically simple shapes. The advantage of our work is 
+further veriﬁed by comparing to the state-of-the-art approaches.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2021</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://ieeexplore.ieee.org/document/9429889/">https://ieeexplore.ieee.org/document/9429889/</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:11:06</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>30</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>IEEE Transactions on Image Processing</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1109/TIP.2021.3078109">10.1109/TIP.2021.3078109</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>IEEE Trans. on Image Process.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1057-7149, 1941-0042</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>13.03.2024, 17:21:41</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:21:41</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>6D pose estimation</li>
+					<li>Global Model Description</li>
+					<li>Point pair features</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_AW8PSCU3">
+<div><div data-schema-version="8"><p>В статье представлен новый и эффективный подход к оценке положения шестимерных объектов.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_W4XEK4IA">Guo и др. - 2021 - Efficient Center Voting for Object Detection and 6.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_G6AZNA7W" class="item journalArticle">
+			<h2>Incomplete Region Estimation and Restoration of 3D Point Cloud Human Face Datasets</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Kutub Uddin</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Tae Hyun Jeong</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Byung Tae Oh</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Owing to imperfect scans, occlusions, low reﬂectance of the 
+scanned surface, and packet loss, there may be several incomplete 
+regions in the 3D point cloud dataset. These missing regions can degrade
+ the performance of recognition, classiﬁcation, segmentation, or 
+upsampling methods in point cloud datasets. In this study, we propose a 
+new approach to estimate the incomplete regions of 3D point cloud human 
+face datasets using the masking method. First, we perform some 
+preprocessing on the input point cloud, such as rotation in the left and
+ right angles. Then, we project the preprocessed point cloud onto a 2D 
+surface and generate masks. Finally, we interpolate the 2D projection 
+and the mask to produce the estimated point cloud. We also designed a 
+deep learning model to restore the estimated point cloud to improve its 
+quality. We use chamfer distance (CD) and hausdorff distance (HD) to 
+evaluate the proposed method on our own human face and large-scale 
+facial model (LSFM) datasets. The proposed method achieves an average CD
+ and HD results of 1.30 and 21.46 for our own and 1.35 and 9.08 for the 
+LSFM datasets, respectively. The proposed method shows better results 
+than the existing methods.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2022-01-18</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://www.mdpi.com/1424-8220/22/3/723">https://www.mdpi.com/1424-8220/22/3/723</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:11:19</td>
+					</tr>
+					<tr>
+					<th>Дополнительно</th>
+						<td>Number: 3</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>22</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>15</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Sensors</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.3390/s22030723">10.3390/s22030723</a></td>
+					</tr>
+					<tr>
+					<th>Выпуск</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Sensors</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1424-8220</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>13.03.2024, 17:21:52</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:21:52</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>Discussion and Conclusions</li>
+					<li>incomplete region</li>
+					<li>Proposed Methodology</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_C66NDUKL">
+<div><div data-schema-version="8"><p>В этом исследовании предлагается 
+новый подход для оценки неполных областей трехмерных наборов данных с 
+использованием метода маскировки</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_EV9CLHMT">Uddin и др. - 2022 - Incomplete Region Estimation and Restoration of 3D.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_WWDY8UCT" class="item bookSection">
+			<h2>Learning-Based Point Cloud Registration for 6D Object Pose Estimation in the Real World</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Раздел книги</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Zheng Dang</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Lizhou Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Yu Guo</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Mathieu Salzmann</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Shai Avidan</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Gabriel Brostow</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Moustapha Cissé</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Giovanni Maria Farinella</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Tal Hassner</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>In this work, we tackle the task of estimating the 6D pose of 
+an object from point cloud data. While recent learning-based approaches 
+to addressing this task have shown great success on synthetic datasets, 
+we have observed them to fail in the presence of real-world data. We 
+thus analyze the causes of these failures, which we trace back to the 
+difference between the feature distributions of the source and target 
+point clouds, and the sensitivity of the widely-used SVD-based loss 
+function to the range of rotation between the two point clouds. We 
+address the first challenge by introducing a new normalization strategy,
+ Match Normalization, and the second via the use of a loss function 
+based on the negative log likelihood of point correspondences. Our two 
+contributions are general and can be applied to many existing 
+learning-based 3D object registration frameworks, which we illustrate by
+ implementing them in two of them, DCP and IDAM. Our experiments on the 
+real-scene TUD-L [26], LINEMOD [23] and Occluded-LINEMOD [7] datasets 
+evidence the benefits of our strategies. They allow for the first time 
+learning-based 3D object registration methods to achieve meaningful 
+results on real-world data. We therefore expect them to be key to the 
+future development of point cloud registration methods. Our source code 
+can be found at https://github.com/Dangzheng/MatchNorm.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2022</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://link.springer.com/10.1007/978-3-031-19769-7_2">https://link.springer.com/10.1007/978-3-031-19769-7_2</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:11:09</td>
+					</tr>
+					<tr>
+					<th>Дополнительно</th>
+						<td>Series Title: Lecture Notes in Computer Science
+DOI: 10.1007/978-3-031-19769-7_2</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>13661</td>
+					</tr>
+					<tr>
+					<th>Место</th>
+						<td>Cham</td>
+					</tr>
+					<tr>
+					<th>Издатель</th>
+						<td>Springer Nature Switzerland</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-3-031-19768-0 978-3-031-19769-7</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>19</td>
+					</tr>
+					<tr>
+					<th>Издание</th>
+						<td>Zheng Dang1 , Lizhou Wang2 , Yu Guo2 , and Mathieu Salzmann1,3</td>
+					</tr>
+					<tr>
+					<th>Название книги</th>
+						<td>Computer Vision – ECCV 2022</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>13.03.2024, 17:21:45</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:21:45</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>Point Cloud Registration</li>
+					<li>Problem Formulation</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_C5YAXZGK">
+<div><div data-schema-version="8"><p>В этой работе решается задача оценки положения 6D объекта на основе данных облака точек.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_ENTSYZKY">Dang и др. - 2022 - Learning-Based Point Cloud Registration for 6D Obj.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ZNYWYAWZ" class="item preprint">
+			<h2>Towards real-time object recognition and pose estimation in point clouds</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Препринт</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Marlon Marcon</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Olga Regina Pereira Bellon</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Luciano Silva</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Object recognition and 6DoF pose estimation are quite 
+challenging tasks in computer vision applications. Despite efficiency in
+ such tasks, standard methods deliver far from real-time processing 
+rates. This paper presents a novel pipeline to estimate a fine 6DoF pose
+ of objects, applied to realistic scenarios in real-time. We split our 
+proposal into three main parts. Firstly, a Color feature classification 
+leverages the use of pre-trained CNN color features trained on the 
+ImageNet for object detection. A Feature-based registration module 
+conducts a coarse pose estimation, and finally, a Fine-adjustment step 
+performs an ICP-based dense registration. Our proposal achieves, in the 
+best case, an accuracy performance of almost 83\% on the RGB-D Scenes 
+dataset. Regarding processing time, the object detection task is done at
+ a frame processing rate up to 90 FPS, and the pose estimation at almost
+ 14 FPS in a full execution strategy. We discuss that due to the 
+proposal's modularity, we could let the full execution occurs only when 
+necessary and perform a scheduled execution that unlocks real-time 
+processing, even for multitask situations.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2020-11-27</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>arXiv.org</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="http://arxiv.org/abs/2011.13669">http://arxiv.org/abs/2011.13669</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:11:02</td>
+					</tr>
+					<tr>
+					<th>Дополнительно</th>
+						<td>Issue: arXiv:2011.13669
+arXiv:2011.13669 [cs]</td>
+					</tr>
+					<tr>
+					<th>Репозиторий</th>
+						<td>arXiv</td>
+					</tr>
+					<tr>
+					<th>ID на archive.org</th>
+						<td>arXiv:2011.13669</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>13.03.2024, 17:21:40</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:21:40</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>point cloud</li>
+					<li>Computer Science - Computer Vision and Pattern Recognition</li>
+					<li>point pair feature</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_SMFPEKW7">
+<div><div data-schema-version="8"><p>В этой статье представлен новый 
+конвейер для оценки точного положения объектов с 6 степенями свободы, 
+применяемый к реалистичным сценариям в реальном времени.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_YIT35UC4">Marcon и др. - 2020 - Towards real-time object recognition and pose esti.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ZZ2H6BGM" class="item journalArticle">
+			<h2>Voting and Attention-Based Pose Relation Learning for Object Pose Estimation From 3D Point Clouds</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Dinh-Cuong Hoang</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Johannes A. Stork</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Todor Stoyanov</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Estimating the 6DOF pose of objects is an important function 
+in many applications, such as robot manipulation or augmented reality. 
+However, accurate and fast pose estimation from 3D point clouds is 
+challenging, because of the complexity of object shapes, measurement 
+noise, and presence of occlusions. We address this challenging task 
+using an end-to-end learning approach for object pose estimation given a
+ raw point cloud input. Our architecture pools geometric features 
+together using a self-attention mechanism and adopts a deep Hough voting
+ scheme for pose proposal generation. To build robustness to occlusion, 
+the proposed network generates candidates by casting votes and 
+accumulating evidence for object locations. Speciﬁcally, our model 
+learns higher-level features by leveraging the dependency of object 
+parts and object instances, thereby boosting the performance of object 
+pose estimation. Our experiments show that our method outperforms 
+state-of-the-art approaches in public benchmarks including the Siléane 
+dataset [35 and the Fraunhofer IPA dataset [36]. We also deploy our 
+proposed method to a real robot pick-and-place based on the estimated 
+pose.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>10/2022</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://ieeexplore.ieee.org/document/9817619/">https://ieeexplore.ieee.org/document/9817619/</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:11:25</td>
+					</tr>
+					<tr>
+					<th>Дополнительно</th>
+						<td>Number: 4</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>7</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>IEEE Robotics and Automation Letters</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1109/LRA.2022.3189158">10.1109/LRA.2022.3189158</a></td>
+					</tr>
+					<tr>
+					<th>Выпуск</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>IEEE Robot. Autom. Lett.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2377-3766, 2377-3774</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>13.03.2024, 17:21:57</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:21:57</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>evaluation</li>
+					<li>Implementation Details</li>
+					<li>robot manipulation</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_WAAGKYWT">
+<div><div data-schema-version="8"><p>В этой статье используется подход 
+сквозного обучения для оценки положения объекта на основе необработанных
+ входных данных облака точек.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_GUBX843L">Hoang и др. - 2022 - Voting and Attention-Based Pose Relation Learning .pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_C33E63HQ" class="item journalArticle">
+			<h2>Worldwide Pose Estimation using 3D Point Clouds</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Yunpeng Li</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Noah Snavely</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Dan Huttenlocher</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Pascal Fua</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>We address the problem of determining where a photo was taken 
+by estimating a full 6-DOF-plus-intrincs camera pose with respect to a 
+large geo-registered 3D point cloud, bringing together research on image
+ localization, landmark recognition, and 3D pose estimation. Our method 
+scales to datasets with hundreds of thousands of images and tens of 
+millions of 3D points through the use of two new techniques: a 
+co-occurrence prior for RANSAC and bidirectional matching of image 
+features with 3D points. We evaluate our method on several large data 
+sets, and show state-of-the-art results on landmark recognition as well 
+as the ability to locate cameras to within meters, requiring only 
+seconds per query.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2012</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>Zotero</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>14</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>13.03.2024, 17:22:01</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>13.03.2024, 17:22:01</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>Efficient Pose Estimation</li>
+					<li>Sampling with Co-occurrence Prior</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_ICS4EU92">
+<div><div data-schema-version="8"><p>В этой &nbsp;статье решается 
+&nbsp;проблема определения того, где была сделана фотография, оценивая 
+полную позу камеры с 6 степенями свободы.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_Q264YUQQ">Li и др. - Worldwide Pose Estimation using 3D Point Clouds.pdf					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>
