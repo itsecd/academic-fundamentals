@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'none'; media-src 'none'">
+		<title>Отчет Zotero</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9CgpkaXYgdGFibGUgewoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKfQoKZGl2IHRhYmxlIHRkLCBkaXYgdGFibGUgdGggewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCWJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7Cgl3b3JkLWJyZWFrOiBicmVhay1hbGw7Cn0KCmRpdiB0YWJsZSB0ZCBwOmVtcHR5OjphZnRlciwgZGl2IHRhYmxlIHRoIHA6ZW1wdHk6OmFmdGVyIHsKCWNvbnRlbnQ6ICJcMDBhMCI7Cn0KCmRpdiB0YWJsZSB0ZCAqOmZpcnN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9CgpkaXYgdGFibGUgdGQgKjpsYXN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpsYXN0LWNoaWxkIHsKCW1hcmdpbi1ib3R0b206IDA7Cn0K">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_9VB4UYI7" class="item journalArticle">
+			<h2>A Building Information Modeling Approach to Integrate Geomatic Data for the Documentation and Preservation of Cultural Heritage</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Mercedes Solla</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Luisa M. S. Gonçalves</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Gil Gonçalves</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Carina Francisco</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Iván Puente</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Paulo Providência</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Florindo Gaspar</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Hugo Rodrigues</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Non-destructive testing (NDT) techniques play an important 
+role in the characterization and diagnosis of historic buildings, 
+keeping in mind their conservation and possible rehabilitation. This 
+paper presents a new approach that merges building information modeling 
+(BIM) with environment geospatial data obtained by several 
+non-destructive techniques, namely terrestrial laser scanning, 
+ground-penetrating radar, infrared thermography, and the automatic 
+classiﬁcation of pathologies based on RGB (red, green, blue) imaging 
+acquired with an unmanned aircraft system (UAS). This approach was 
+applied to the inspection of the Monastery of Batalha in Leiria, 
+Portugal, a UNESCO World Heritage Site. To assess the capabilities of 
+each technique, diﬀerent parts of the monastery were examined, namely 
+(i) part of its west façade, including a few protruding buttresses, and 
+(ii) the masonry vaults of the Church (nave, right-hand aisle, and 
+transept) and the Founder’s Chapel. After describing the employed 
+techniques, a discussion of the optimization, treatment and integration 
+of the acquired data through the BIM approach is presented. This work 
+intends to contribute to the application of BIM in the ﬁeld of cultural 
+heritage, aiming at its future use in diﬀerent activities such as 
+facility management, support in the restoration and rehabilitation 
+process, and research.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://www.mdpi.com/2072-4292/12/24/4028">https://www.mdpi.com/2072-4292/12/24/4028</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:18:00</td>
+					</tr>
+					<tr>
+					<th>Дополнительно</th>
+						<td>Number: 24</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>4028</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Remote Sensing</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.3390/rs12244028">10.3390/rs12244028</a></td>
+					</tr>
+					<tr>
+					<th>Выпуск</th>
+						<td>24</td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Remote Sensing</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2072-4292</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:40</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 19:54:40</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>BIM</li>
+					<li>historic buildings</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_HIB6QSGW">
+<div><div data-schema-version="8"><p>В данной статье представлен новый 
+подход, который объединяет моделирование информации здания (BIM) с 
+окружающими геопространственными данными, полученными несколькими 
+неразрушающими техниками, а именно земельным лазерным сканированием, 
+радарным зондированием, инфракрасной термографией и автоматической 
+классификацией патологий на основе RGB (красный, зеленый, синий) 
+изображений, полученных с беспилотной авиационной системы (БПАС</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_BG85PAM2">Solla и др. - 2020 - A Building Information Modeling Approach to Integr.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_JHL3N89T" class="item journalArticle">
+			<h2>A Review of Heritage Building Information Modeling (H-BIM)</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Facundo López</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Pedro Lerones</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>José Llamas</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Jaime Gómez-García-Bermejo</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Eduardo Zalama</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Many projects concerning the protection, conservation, 
+restoration, and dissemination of cultural heritage are being carried 
+out around the world due to its growing interest as a driving force of 
+socio-economic development. The existence of reliable, digital 
+three-dimensional (3D) models that allow for the planning and management
+ of these projects in a remote and decentralized way is currently a 
+growing necessity. There are many software tools to perform the modeling
+ and complete three-dimensional documentation of the intervened 
+monuments. However, the Architecture, Engineering and Construction (AEC)
+ sector has adopted the Building Information Modeling (BIM) standard 
+over the last few decades due to the progress that has been made in its 
+qualities and capabilities. The complex modeling of cultural heritage 
+through commercial BIM software leads to the consideration of the 
+concept of Heritage BIM (H-BIM), which pursues the modeling of 
+architectural elements, according to artistic, historical, and 
+constructive typologies. In addition, H-BIM is considered to be an 
+emerging technology that enables us to understand, document, advertize, 
+and virtually reconstruct the built heritage. This article is a review 
+of the existing literature on H-BIM and its effective implementation in 
+the cultural heritage sector, exploring the effectiveness and the 
+usefulness of the different methodologies that were developed to model 
+families of elements of interest.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="http://www.mdpi.com/2414-4088/2/2/21">http://www.mdpi.com/2414-4088/2/2/21</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:22:07</td>
+					</tr>
+					<tr>
+					<th>Дополнительно</th>
+						<td>Number: 2</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>21</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Multimodal Technologies and Interaction</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.3390/mti2020021">10.3390/mti2020021</a></td>
+					</tr>
+					<tr>
+					<th>Выпуск</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>MTI</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2414-4088</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:42</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 19:54:42</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>BIM</li>
+					<li>3D models</li>
+					<li>3D reconstruction</li>
+					<li>ArchitecturalHeritage</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_K8TBJXFQ">
+<div><div data-schema-version="8"><p>В этой статье рассказывается, что 
+многие проекты, связанные с защитой, сохранением, реставрацией и 
+распространением культурного наследия, в настоящее время реализуются по 
+всему миру из-за возрастающего интереса к этому как движущей силе 
+социально-экономического развития.</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_XDPTIRCE">López и др. - 2018 - A Review of Heritage Building Information Modeling.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_Y3P37XQJ" class="item journalArticle">
+			<h2>Photogrammetric 3d information systems for the management of models of cultural heritage</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>L. Corniello</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>The research on 3D photogrammetric information systems, for 
+the management of digital models of Cultural Heritage, addresses several
+ objectives in the field of digitization and three-dimensional modeling 
+of heritage. The study is conducted through detailed and accurate 
+photographic and iconographic documentation, survey and digital 
+documentation with accessible models. The present work, therefore, 
+proposes to document and reconstruct graphically, the historical 
+evolution of the Hvar Tvrdalj Fortress in Croatia through a series of 
+digital drawings, but especially 3d photogrammetric modeling systems of 
+outdoor spaces. Particular attention was paid to the digital modeling 
+activities of the fishpond, located inside the fortified structure. The 
+activity of representation of the Fortress of Hvar Tvrdalj was set up by
+ providing, in an initial phase, the execution of a basic survey 
+extended to the architectural organisms and the surrounding green space 
+in order to define a first two-dimensional geometric model; then, in a 
+second phase, were made the survey graphs and the consequent graphic 
+restitution with the measurements of architectural details and the 
+complete survey of the inner tank. The research, therefore, presents for
+ the first time, a scientific study of photogrammetric digital survey 
+developed through the creation of 3D digital models on a structure of 
+great architectural and landscape interest, as well as a cornerstone of 
+the island of Hvar for local tourism.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://isprs-archives.copernicus.org/articles/XLIV-4-W1-2020/11/2020/">https://isprs-archives.copernicus.org/articles/XLIV-4-W1-2020/11/2020/</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:24:07</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>XLIV-4/W1-2020</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>11-18</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.5194/isprs-archives-XLIV-4-W1-2020-11-2020">10.5194/isprs-archives-XLIV-4-W1-2020-11-2020</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2194-9034</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:43</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 20:45:27</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>3D models</li>
+					<li>Photogrammetry</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_Z4C3KEEB">
+<div><div data-schema-version="8"><p>Исследование информационных систем трехмерной фотограмметрии для управления цифровыми моделями культурного наследия</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_3ZD9EYVP">Corniello - 2020 - PHOTOGRAMMETRIC 3D INFORMATION SYSTEMS FOR THE MAN.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_Y7UUV3JC" class="item bookSection">
+			<h2>Building Information Modelling – A Novel Parametric Modeling Approach Based on 3D Surveys of Historic Architecture</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Раздел книги</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Fabrizio Banfi</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Marinos Ioannides</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Eleanor Fink</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Antonia Moropoulou</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Monika Hagedorn-Saupe</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Antonella Fresa</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Gunnar Liestøl</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Vlatka Rajcic</td>
+					</tr>
+					<tr>
+						<th class="editor">Редактор</th>
+						<td>Pierre Grussenmeyer</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Building Information Modelling (BIM) appears to be the best 
+answer to simplify the traditional process of design, construction, 
+management and maintenance. On the other hand, the intricate reality of 
+the built heritage and the growing need to represent the actual geometry
+ using 3D models collide with the new paradigms of complexity and 
+accuracy, opening a novel operative perspective for restoration and 
+conservation. The management of complexity through BIM requires a new 
+management approach focused on the development of improve the 
+environmental impact cost, reduction and increase in productivity and 
+eﬃciency the Architecture, Engineering and Construction (AEC) Industry. 
+This structure is quantiﬁable in morphological and typical terms by 
+establishing levels of development and detail (LoDs) and changes of 
+direction (ReversLoDs) to support the diﬀerent stages of life cycle 
+(LCM). Starting from diﬀerent experiences in the ﬁeld of HBIM, this 
+research work proposes a dynamic parametric modeling approach that 
+involves the use of laser scanning, photogrammetric data and advanced 
+modelling for HBIM.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2016</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://link.springer.com/10.1007/978-3-319-48496-9_10">https://link.springer.com/10.1007/978-3-319-48496-9_10</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:24:12</td>
+					</tr>
+					<tr>
+					<th>Дополнительно</th>
+						<td>Series Title: Lecture Notes in Computer Science
+DOI: 10.1007/978-3-319-48496-9_10</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>10058</td>
+					</tr>
+					<tr>
+					<th>Место</th>
+						<td>Cham</td>
+					</tr>
+					<tr>
+					<th>Издатель</th>
+						<td>Springer International Publishing</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-3-319-48495-2 978-3-319-48496-9</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>116-127</td>
+					</tr>
+					<tr>
+					<th>Название книги</th>
+						<td>Digital Heritage. Progress in Cultural Heritage: Documentation, Preservation, and Protection</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:43</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 20:43:55</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>BIM</li>
+					<li>3D models</li>
+					<li>ArchitecturalHeritage</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_AIG9H7MV">
+<div><div data-schema-version="8"><p>В данной статье представлен обзор процессы информационного моделирования зданий (BIM) уже установлены для новых зданий</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_B3J8KEFZ">Banfi - 2016 - Building Information Modelling – A Novel Parametri.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UQWNUGCK" class="item journalArticle">
+			<h2>Parametric accuracy: building information modeling process applied to the cultural heritage preservation</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>S. Garagnani</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>A. M. Manferdini</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Since their introduction, modeling tools aimed to 
+architectural design evolved in today’s “digital multi-purpose drawing 
+boards” based on enhanced parametric elements able to originate whole 
+buildings within virtual environments. Semantic splitting and elements 
+topology are features that allow objects to be “intelligent” (i.e. 
+self-aware of what kind of element they are and with whom they can 
+interact), representing this way basics of Building Information Modeling
+ (BIM), a coordinated, consistent and always up to date workflow 
+improved in order to reach higher quality, reliability and cost 
+reductions all over the design process. Even if BIM was originally 
+intended for new architectures, its attitude to store semantic 
+inter-related information can be successfully applied to existing 
+buildings as well, especially if they deserve particular care such as 
+Cultural Heritage sites. BIM engines can easily manage simple parametric
+ geometries, collapsing them to standard primitives connected through 
+hierarchical relationships: however, when components are generated by 
+existing morphologies, for example acquiring point clouds by digital 
+photogrammetry or laser scanning equipment, complex abstractions have to
+ be introduced while remodeling elements by hand, since automatic 
+feature extraction in available software is still not effective. In 
+order to introduce a methodology destined to process point cloud data in
+ a BIM environment with high accuracy, this paper describes some 
+experiences on monumental sites documentation, generated through a 
+plug-in written for Autodesk Revit and codenamed GreenSpider after its 
+capability to layout points in space as if they were nodes of an ideal 
+cobweb.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2013</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Краткое назв.</th>
+						<td>PARAMETRIC ACCURACY</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://isprs-archives.copernicus.org/articles/XL-5-W1/87/2013/">https://isprs-archives.copernicus.org/articles/XL-5-W1/87/2013/</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:24:17</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>XL-5/W1</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>87-92</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.5194/isprsarchives-XL-5-W1-87-2013">10.5194/isprsarchives-XL-5-W1-87-2013</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2194-9034</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:44</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 20:46:27</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>BIM</li>
+					<li>3D reconstruction</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_S72PHWDJ">
+<div><div data-schema-version="8"><p>В этой статье представлены 
+инструменты моделирования, направленные на архитектурный дизайн, 
+основанные на усовершенствованных параметрических элементах, способных 
+создавать целые здания в виртуальных средах.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_WV7J24AI">Garagnani и Manferdini - 2013 - PARAMETRIC ACCURACY BUILDING INFORMATION MODELING.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_LKSDA2KL" class="item journalArticle">
+			<h2>Developing historic building information modelling guidelines and procedures for architectural heritage in ireland</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>M. Murphy</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>A. Corns</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>J. Cahill</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>K. Eliashvili</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>A. Chenau</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>C. Pybus</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>R. Shaw</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>G. Devlin</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>A. Deevy</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>L. Truong-Hong</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Cultural heritage researchers have recently begun applying 
+Building Information Modelling (BIM) to historic buildings. The model is
+ comprised of intelligent objects with semantic attributes which 
+represent the elements of a building structure and are organised within a
+ 3D virtual environment. Case studies in Ireland are used to test and 
+develop the suitable systems for (a) data capture/digital 
+surveying/processing (b) developing library of architectural components 
+and (c) mapping these architectural components onto the laser scan or 
+digital survey to relate the intelligent virtual representation of a 
+historic structure (HBIM). While BIM platforms have the potential to 
+create a virtual and intelligent representation of a building, its full 
+exploitation and use is restricted to narrow set of expert users with 
+access to costly hardware, software and skills. The testing of open BIM 
+approaches in particular IFCs and the use of game engine platforms is a 
+fundamental component for developing much wider dissemination. The 
+semantically enriched model can be transferred into a WEB based game 
+engine platform.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://isprs-archives.copernicus.org/articles/XLII-2-W5/539/2017/">https://isprs-archives.copernicus.org/articles/XLII-2-W5/539/2017/</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:24:23</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>XLII-2/W5</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>539-546</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.5194/isprs-archives-XLII-2-W5-539-2017">10.5194/isprs-archives-XLII-2-W5-539-2017</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2194-9034</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:45</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 19:54:45</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>BIM</li>
+					<li>historic buildings</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_HUGEAI7B">
+<div><div data-schema-version="8"><p>Исследователи культурного наследия 
+недавно начали применять моделирование информации о зданиях (BIM) к 
+историческим зданиям. Модель состоит из интеллектуальных объектов с 
+семантическими атрибутами, которые представляют элементы структуры 
+здания и организованы в 3D виртуальной среде</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_M8MNSBQZ">Murphy и др. - 2017 - DEVELOPING HISTORIC BUILDING INFORMATION MODELLING.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_VTH4C44D" class="item journalArticle">
+			<h2>Unmanned aerial systems for photogrammetry and remote sensing: A review</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>I. Colomina</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>P. Molina</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>We discuss the evolution and state-of-the-art of the use of 
+Unmanned Aerial Systems (UAS) in the ﬁeld of Photogrammetry and Remote 
+Sensing (PaRS). UAS, Remotely-Piloted Aerial Systems, Unmanned Aerial 
+Vehicles or simply, drones are a hot topic comprising a diverse array of
+ aspects including technology, privacy rights, safety and regulations, 
+and even war and peace. Modern photogrammetry and remote sensing 
+identiﬁed the potential of UAS-sourced imagery more than thirty years 
+ago. In the last ﬁve years, these two sister disciplines have developed 
+technology and methods that challenge the current aeronautical 
+regulatory framework and their own traditional acquisition and 
+processing methods. Navety and ingenuity have combined off-the-shelf, 
+low-cost equipment with sophisticated computer vision, robotics and 
+geomatic engineering. The results are cm-level resolution and accuracy 
+products that can be generated even with cameras costing a few-hundred 
+euros. In this review article, following a brief historic background and
+ regulatory status analysis, we review the recent unmanned aircraft, 
+sensing, navigation, orientation and general data processing 
+developments for UAS photogrammetry and remote sensing with emphasis on 
+the nano-micro-mini UAS segment.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2014</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Краткое назв.</th>
+						<td>Unmanned aerial systems for photogrammetry and remote sensing</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S0924271614000501">https://linkinghub.elsevier.com/retrieve/pii/S0924271614000501</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:25:42</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>92</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>79-97</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>ISPRS Journal of Photogrammetry and Remote Sensing</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1016/j.isprsjprs.2014.02.013">10.1016/j.isprsjprs.2014.02.013</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>ISPRS Journal of Photogrammetry and Remote Sensing</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>09242716</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:45</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 20:42:48</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>3D reconstruction</li>
+					<li>ArchitecturalHeritage</li>
+					<li>Photogrammetry</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_G3Q36IC6">
+<div><div data-schema-version="8"><p>Современная фотограмметрия и дистанционное зондирование, выявление потенциала изображений.</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_ESMECY7T">Colomina и Molina - 2014 - Unmanned aerial systems for photogrammetry and rem.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_YQ3V7IP6" class="item journalArticle">
+			<h2>Accurate measurement with photogrammetry at large sites</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>P. Sapirstein</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Photogrammetry has become increasingly popular as a low-cost 
+method for documenting cultural heritage and archaeological excavations.
+ However, we have yet to establish best practices for its implementation
+ at the site, or methods for assessing the accuracy of the resulting 3D 
+measurements. This article presents a recent study of the Temple of Hera
+ at Olympia, where a 25 Â 55 m area was recorded at 1 mm resolution 
+using photogrammetry both for survey and 3D reconstruction. Coded 
+targets were set up throughout the site, which was then photographed in 
+two phases. First, a site-wide survey established the locations of the 
+network of targets. Second, sets of close-up photographs for detailed 3D
+ reconstruction of the site were registered to the global survey via the
+ targets. This technique developed at Olympia improves measurement 
+accuracy by an order of magnitude compared to previous implementations, 
+with a precision of at least 1 part in 50,000, and 95% of the surfaces 
+located accurately within 2e3 mm.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2016</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S0305440316000042">https://linkinghub.elsevier.com/retrieve/pii/S0305440316000042</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:36:54</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>66</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>137-145</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Journal of Archaeological Science</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1016/j.jas.2016.01.002">10.1016/j.jas.2016.01.002</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Journal of Archaeological Science</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>03054403</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:46</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 20:44:38</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>3D reconstruction</li>
+					<li>ArchitecturalHeritage</li>
+					<li>historic buildings</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_ZU3W9EWA">
+<div><div data-schema-version="8"><p>В данной статье представлено 
+недавнее исследование храма Геры в Олимпии, где 25x55 м были записаны с 
+разрешением 1 мм с использованием фотограмметрии как для обзора, так и 
+для 3D-реконструкции. Кодированные метки были установлены по всему 
+месту, которые затем фотографировались в две фазы.</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_HZ26JHC9">Sapirstein - 2016 - Accurate measurement with photogrammetry at large .pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_SSQKZZXF" class="item journalArticle">
+			<h2>Analytical review and evaluation of civil information modeling</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Jack C.P. Cheng</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Qiqi Lu</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Yichuan Deng</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Building information modeling (BIM) has been widely adopted in
+ the building industry. However, the use of BIM in civil infrastructure 
+facilities, sometimes referred to as civil information modeling (CIM) 
+has been slow in its application. Industry and academia are increasingly
+ putting effort into CIM study and implementation, but so far there has 
+been no comprehensive review of their effort in this regard. This paper 
+presents a framework to evaluate the current practices of CIM adoption 
+for various civil infrastructure facilities. In this study, civil 
+infrastructure facilities were divided into nine categories for 
+evaluation and the effort with regard to CIM adoption for each civil 
+infrastructure category was evaluated in six aspects. Based on the 
+evaluation and comparison results of 171 case studies and 62 academic 
+papers on CIM, research gaps were identiﬁed and recommendations were 
+made. For example, the ﬁndings show that data schema development for 
+civil infrastructure facilities other than bridges, roads, and tunnels 
+are lacking. The results and research gaps revealed by this study are 
+useful for both researchers and practitioners.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2016</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S0926580516300280">https://linkinghub.elsevier.com/retrieve/pii/S0926580516300280</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:37:00</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>67</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>31-47</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Automation in Construction</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1016/j.autcon.2016.02.006">10.1016/j.autcon.2016.02.006</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Automation in Construction</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>09265805</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:47</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 19:54:47</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>BIM</li>
+					<li>CIM</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_D8ABBE75">
+<div><div data-schema-version="8"><p>В данной статье представлена методика оценки текущих практик принятия CIM для различных объектов гражданской инфраструктуры.</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_NEDDUDN3">Cheng и др. - 2016 - Analytical review and evaluation of civil informat.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CA7T5HMZ" class="item journalArticle">
+			<h2>A product information modeling framework for product lifecycle management</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>R. Sudarsan</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>S.J. Fenves</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>R.D. Sriram</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>F. Wang</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>The Product Lifecycle Management (PLM) concept holds the 
+promise of seamlessly integrating all the information produced 
+throughout all phases of a product’s life cycle to everyone in an 
+organization at every managerial and technical level, along with key 
+suppliers and customers. PLM systems are tools that implement the PLM 
+concept. As such, they need the capability to serve up the information 
+referred to above, and they need to ensure the cohesion and traceability
+ of product data.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2005</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S0010448505000400">https://linkinghub.elsevier.com/retrieve/pii/S0010448505000400</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:44:25</td>
+					</tr>
+					<tr>
+					<th>Дополнительно</th>
+						<td>Number: 13</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>37</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>1399-1411</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Computer-Aided Design</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1016/j.cad.2005.02.010">10.1016/j.cad.2005.02.010</a></td>
+					</tr>
+					<tr>
+					<th>Выпуск</th>
+						<td>13</td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Computer-Aided Design</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>00104485</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:48</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 20:46:55</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>3D reconstruction</li>
+					<li>ArchitecturalHeritage</li>
+					<li>science</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_WJT2YHR9">
+<div><div data-schema-version="8"><p>В этой статье представлены 
+исследования концепций управления жизненным циклом продукта (Product 
+Lifecycle Management, PLM) обещает бесшовное интегрирование всей 
+информации, производимой на всех этапах жизненного цикла продукта, всем 
+сотрудникам организации на всех уровнях управления и технического 
+обслуживания, а также ключевым поставщикам и клиентам</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_7BXV77SA">Sudarsan и др. - 2005 - A product information modeling framework for produ.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_TKS2F3S9" class="item journalArticle">
+			<h2>Beyond the BIM utopia: Approaches to the development and implementation of building information modeling</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Reijo Miettinen</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Sami Paavola</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>Building information modeling (BIM) refers to a combination or
+ a set of technologies and organizational solutions that are expected to
+ increase interorganizational and disciplinary collaboration in the 
+construction industry and to improve the productivity and quality of the
+ design, construction, and maintenance of buildings. In this paper we 
+analyze ﬁrst the rhetorical–promotional dimension of the BIM 
+implementation sometimes characterized as a “BIM utopia.” Second, we 
+analyze the views of the enhancement of BIM implementation. Although BIM
+ visions and promises are needed for BIM implementation, they need to be
+ complemented with a more realistic view of conditions of the 
+implementation. For this we outline an activity–theoretical and 
+evolutionary view by drawing conceptual tools from science and 
+technology studies and other relevant social scientiﬁc literature. 
+According to this view, in addition to standards and guidelines 
+underlined by normative approaches, local experimentation and continuous
+ learning play a central role in the implementation of BIM.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2014</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Краткое назв.</th>
+						<td>Beyond the BIM utopia</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S0926580514000612">https://linkinghub.elsevier.com/retrieve/pii/S0926580514000612</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:47:54</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>43</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>84-91</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Automation in Construction</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1016/j.autcon.2014.03.009">10.1016/j.autcon.2014.03.009</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Automation in Construction</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>09265805</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:48</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 19:54:48</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>BIM</li>
+					<li>science</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_5X945QYY">
+<div><div data-schema-version="8"><p>В этой статье описывается 
+технололгия "Building Information Modeling (BIM)", котрая относится к 
+сочетанию или набору технологий и организационных решений, которые 
+предполагается, должны способствовать увеличению межорганизационного и 
+дисциплинарного взаимодействия в строительной отрасли.</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_BRLXC7W8">Miettinen и Paavola - 2014 - Beyond the BIM utopia Approaches to the developme.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2PSHF639" class="item journalArticle">
+			<h2>Building Information Modeling (BIM) for existing buildings — Literature review and future needs</h2>
+				<table>
+					<tbody><tr>
+						<th>Тип записи</th>
+						<td>Статья из рецензируемого журнала</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Rebekka Volk</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Julian Stengel</td>
+					</tr>
+					<tr>
+						<th class="author">Автор</th>
+						<td>Frank Schultmann</td>
+					</tr>
+					<tr>
+					<th>Аннотация</th>
+						<td>While BIM processes are established for new buildings, the 
+majority of existing buildings is not maintained, refurbished or 
+deconstructed with BIM yet. Promising beneﬁts of efﬁcient resource 
+management motivate research to overcome uncertainties of building 
+condition and deﬁcient documentation prevalent in existing buildings.</td>
+					</tr>
+					<tr>
+					<th>Дата</th>
+						<td>2014</td>
+					</tr>
+					<tr>
+					<th>Язык</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Библ. каталог</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL-адрес</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S092658051300191X">https://linkinghub.elsevier.com/retrieve/pii/S092658051300191X</a></td>
+					</tr>
+					<tr>
+					<th>Дата доступа</th>
+						<td>29.02.2024, 9:47:58</td>
+					</tr>
+					<tr>
+					<th>Том</th>
+						<td>38</td>
+					</tr>
+					<tr>
+					<th>Страницы</th>
+						<td>109-127</td>
+					</tr>
+					<tr>
+					<th>Заголовок публикации</th>
+						<td>Automation in Construction</td>
+					</tr>
+					<tr>
+					<th>ЦИО/DOI</th>
+						<td><a href="http://doi.org/10.1016/j.autcon.2013.10.023">10.1016/j.autcon.2013.10.023</a></td>
+					</tr>
+					<tr>
+					<th>Сокращ. журнала</th>
+						<td>Automation in Construction</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>09265805</td>
+					</tr>
+					<tr>
+					<th>Добавлен</th>
+						<td>27.03.2024, 19:54:49</td>
+					</tr>
+					<tr>
+					<th>Изменён</th>
+						<td>27.03.2024, 19:54:49</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Теги:</h3>
+				<ul class="tags">
+					<li>BIM</li>
+					<li>historic buildings</li>
+				</ul>
+				<h3 class="notes">Заметки:</h3>
+				<ul class="notes">
+					<li id="item_VFZE44UR">
+<div><div data-schema-version="8"><p>В этой статье представлены иследования применения информационного моделирования зданий (BIM) в контексте существующих зданий.</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Приложения</h3>
+				<ul class="attachments">
+					<li id="item_PMRARSNJ">Volk и др. - 2014 - Building Information Modeling (BIM) for existing b.pdf					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>

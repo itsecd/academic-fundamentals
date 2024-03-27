@@ -1,0 +1,845 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="https://www.mdpi.com/2072-4292/12/24/4028">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2072-4292"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Solla</foaf:surname>
+                        <foaf:givenName>Mercedes</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gonçalves</foaf:surname>
+                        <foaf:givenName>Luisa M. S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gonçalves</foaf:surname>
+                        <foaf:givenName>Gil</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Francisco</foaf:surname>
+                        <foaf:givenName>Carina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Puente</foaf:surname>
+                        <foaf:givenName>Iván</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Providência</foaf:surname>
+                        <foaf:givenName>Paulo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gaspar</foaf:surname>
+                        <foaf:givenName>Florindo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rodrigues</foaf:surname>
+                        <foaf:givenName>Hugo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_2"/>
+        <link:link rdf:resource="#item_3"/>
+        <dc:subject>BIM</dc:subject>
+        <dc:subject>historic buildings</dc:subject>
+        <dc:title>A Building Information Modeling Approach to Integrate Geomatic Data for the Documentation and Preservation of Cultural Heritage</dc:title>
+        <dcterms:abstract>Non-destructive testing (NDT) techniques play an important role in the characterization and diagnosis of historic buildings, keeping in mind their conservation and possible rehabilitation. This paper presents a new approach that merges building information modeling (BIM) with environment geospatial data obtained by several non-destructive techniques, namely terrestrial laser scanning, ground-penetrating radar, infrared thermography, and the automatic classiﬁcation of pathologies based on RGB (red, green, blue) imaging acquired with an unmanned aircraft system (UAS). This approach was applied to the inspection of the Monastery of Batalha in Leiria, Portugal, a UNESCO World Heritage Site. To assess the capabilities of each technique, diﬀerent parts of the monastery were examined, namely (i) part of its west façade, including a few protruding buttresses, and (ii) the masonry vaults of the Church (nave, right-hand aisle, and transept) and the Founder’s Chapel. After describing the employed techniques, a discussion of the optimization, treatment and integration of the acquired data through the BIM approach is presented. This work intends to contribute to the application of BIM in the ﬁeld of cultural heritage, aiming at its future use in diﬀerent activities such as facility management, support in the restoration and rehabilitation process, and research.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/2072-4292/12/24/4028</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:18:00</dcterms:dateSubmitted>
+        <dc:description>Number: 24</dc:description>
+        <bib:pages>4028</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2072-4292">
+        <prism:volume>12</prism:volume>
+        <dc:title>Remote Sensing</dc:title>
+        <dc:identifier>DOI 10.3390/rs12244028</dc:identifier>
+        <prism:number>24</prism:number>
+        <dcterms:alternative>Remote Sensing</dcterms:alternative>
+        <dc:identifier>ISSN 2072-4292</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_2">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В данной статье представлен новый подход, который объединяет моделирование информации здания (BIM) с окружающими геопространственными данными, полученными несколькими неразрушающими техниками, а именно земельным лазерным сканированием, радарным зондированием, инфракрасной термографией и автоматической классификацией патологий на основе RGB (красный, зеленый, синий) изображений, полученных с беспилотной авиационной системы (БПАС&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_3">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3/Solla и др. - 2020 - A Building Information Modeling Approach to Integr.pdf"/>
+        <dc:title>Solla и др. - 2020 - A Building Information Modeling Approach to Integr.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.mdpi.com/2414-4088/2/2/21">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2414-4088"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>López</foaf:surname>
+                        <foaf:givenName>Facundo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lerones</foaf:surname>
+                        <foaf:givenName>Pedro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Llamas</foaf:surname>
+                        <foaf:givenName>José</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gómez-García-Bermejo</foaf:surname>
+                        <foaf:givenName>Jaime</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zalama</foaf:surname>
+                        <foaf:givenName>Eduardo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_5"/>
+        <link:link rdf:resource="#item_6"/>
+        <dc:subject>BIM</dc:subject>
+        <dc:subject>3D models</dc:subject>
+        <dc:subject>3D reconstruction</dc:subject>
+        <dc:subject>ArchitecturalHeritage</dc:subject>
+        <dc:title>A Review of Heritage Building Information Modeling (H-BIM)</dc:title>
+        <dcterms:abstract>Many projects concerning the protection, conservation, restoration, and dissemination of cultural heritage are being carried out around the world due to its growing interest as a driving force of socio-economic development. The existence of reliable, digital three-dimensional (3D) models that allow for the planning and management of these projects in a remote and decentralized way is currently a growing necessity. There are many software tools to perform the modeling and complete three-dimensional documentation of the intervened monuments. However, the Architecture, Engineering and Construction (AEC) sector has adopted the Building Information Modeling (BIM) standard over the last few decades due to the progress that has been made in its qualities and capabilities. The complex modeling of cultural heritage through commercial BIM software leads to the consideration of the concept of Heritage BIM (H-BIM), which pursues the modeling of architectural elements, according to artistic, historical, and constructive typologies. In addition, H-BIM is considered to be an emerging technology that enables us to understand, document, advertize, and virtually reconstruct the built heritage. This article is a review of the existing literature on H-BIM and its effective implementation in the cultural heritage sector, exploring the effectiveness and the usefulness of the different methodologies that were developed to model families of elements of interest.</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.mdpi.com/2414-4088/2/2/21</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:22:07</dcterms:dateSubmitted>
+        <dc:description>Number: 2</dc:description>
+        <bib:pages>21</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2414-4088">
+        <prism:volume>2</prism:volume>
+        <dc:title>Multimodal Technologies and Interaction</dc:title>
+        <dc:identifier>DOI 10.3390/mti2020021</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>MTI</dcterms:alternative>
+        <dc:identifier>ISSN 2414-4088</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_5">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В этой статье рассказывается, что многие проекты, связанные с защитой, сохранением, реставрацией и распространением культурного наследия, в настоящее время реализуются по всему миру из-за возрастающего интереса к этому как движущей силе социально-экономического развития.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_6">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/6/López и др. - 2018 - A Review of Heritage Building Information Modeling.pdf"/>
+        <dc:title>López и др. - 2018 - A Review of Heritage Building Information Modeling.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://isprs-archives.copernicus.org/articles/XLIV-4-W1-2020/11/2020/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2194-9034"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corniello</foaf:surname>
+                        <foaf:givenName>L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_8"/>
+        <link:link rdf:resource="#item_9"/>
+        <dc:subject>3D models</dc:subject>
+        <dc:subject>Photogrammetry</dc:subject>
+        <dc:title>Photogrammetric 3d information systems for the management of models of cultural heritage</dc:title>
+        <dcterms:abstract>The research on 3D photogrammetric information systems, for the management of digital models of Cultural Heritage, addresses several objectives in the field of digitization and three-dimensional modeling of heritage. The study is conducted through detailed and accurate photographic and iconographic documentation, survey and digital documentation with accessible models. The present work, therefore, proposes to document and reconstruct graphically, the historical evolution of the Hvar Tvrdalj Fortress in Croatia through a series of digital drawings, but especially 3d photogrammetric modeling systems of outdoor spaces. Particular attention was paid to the digital modeling activities of the fishpond, located inside the fortified structure. The activity of representation of the Fortress of Hvar Tvrdalj was set up by providing, in an initial phase, the execution of a basic survey extended to the architectural organisms and the surrounding green space in order to define a first two-dimensional geometric model; then, in a second phase, were made the survey graphs and the consequent graphic restitution with the measurements of architectural details and the complete survey of the inner tank. The research, therefore, presents for the first time, a scientific study of photogrammetric digital survey developed through the creation of 3D digital models on a structure of great architectural and landscape interest, as well as a cornerstone of the island of Hvar for local tourism.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://isprs-archives.copernicus.org/articles/XLIV-4-W1-2020/11/2020/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:24:07</dcterms:dateSubmitted>
+        <bib:pages>11-18</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2194-9034">
+        <prism:volume>XLIV-4/W1-2020</prism:volume>
+        <dc:title>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</dc:title>
+        <dc:identifier>DOI 10.5194/isprs-archives-XLIV-4-W1-2020-11-2020</dc:identifier>
+        <dcterms:alternative>Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci.</dcterms:alternative>
+        <dc:identifier>ISSN 2194-9034</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_8">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Исследование информационных систем трехмерной фотограмметрии для управления цифровыми моделями культурного наследия&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_9">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/9/Corniello - 2020 - PHOTOGRAMMETRIC 3D INFORMATION SYSTEMS FOR THE MAN.pdf"/>
+        <dc:title>Corniello - 2020 - PHOTOGRAMMETRIC 3D INFORMATION SYSTEMS FOR THE MAN.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-3-319-48495-2%20978-3-319-48496-9">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>10058</prism:volume>
+                <dc:identifier>ISBN 978-3-319-48495-2 978-3-319-48496-9</dc:identifier>
+                <dc:title>Digital Heritage. Progress in Cultural Heritage: Documentation, Preservation, and Protection</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cham</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer International Publishing</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Banfi</foaf:surname>
+                        <foaf:givenName>Fabrizio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ioannides</foaf:surname>
+                        <foaf:givenName>Marinos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fink</foaf:surname>
+                        <foaf:givenName>Eleanor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moropoulou</foaf:surname>
+                        <foaf:givenName>Antonia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hagedorn-Saupe</foaf:surname>
+                        <foaf:givenName>Monika</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fresa</foaf:surname>
+                        <foaf:givenName>Antonella</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liestøl</foaf:surname>
+                        <foaf:givenName>Gunnar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rajcic</foaf:surname>
+                        <foaf:givenName>Vlatka</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grussenmeyer</foaf:surname>
+                        <foaf:givenName>Pierre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_11"/>
+        <link:link rdf:resource="#item_12"/>
+        <dc:subject>BIM</dc:subject>
+        <dc:subject>3D models</dc:subject>
+        <dc:subject>ArchitecturalHeritage</dc:subject>
+        <dc:title>Building Information Modelling – A Novel Parametric Modeling Approach Based on 3D Surveys of Historic Architecture</dc:title>
+        <dcterms:abstract>Building Information Modelling (BIM) appears to be the best answer to simplify the traditional process of design, construction, management and maintenance. On the other hand, the intricate reality of the built heritage and the growing need to represent the actual geometry using 3D models collide with the new paradigms of complexity and accuracy, opening a novel operative perspective for restoration and conservation. The management of complexity through BIM requires a new management approach focused on the development of improve the environmental impact cost, reduction and increase in productivity and eﬃciency the Architecture, Engineering and Construction (AEC) Industry. This structure is quantiﬁable in morphological and typical terms by establishing levels of development and detail (LoDs) and changes of direction (ReversLoDs) to support the diﬀerent stages of life cycle (LCM). Starting from diﬀerent experiences in the ﬁeld of HBIM, this research work proposes a dynamic parametric modeling approach that involves the use of laser scanning, photogrammetric data and advanced modelling for HBIM.</dcterms:abstract>
+        <dc:date>2016</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/978-3-319-48496-9_10</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:24:12</dcterms:dateSubmitted>
+        <dc:description>Series Title: Lecture Notes in Computer Science
+DOI: 10.1007/978-3-319-48496-9_10</dc:description>
+        <bib:pages>116-127</bib:pages>
+    </bib:BookSection>
+    <bib:Memo rdf:about="#item_11">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В данной статье представлен обзор процессы информационного моделирования зданий (BIM) уже установлены для новых зданий&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_12">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/12/Banfi - 2016 - Building Information Modelling – A Novel Parametri.pdf"/>
+        <dc:title>Banfi - 2016 - Building Information Modelling – A Novel Parametri.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://isprs-archives.copernicus.org/articles/XL-5-W1/87/2013/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>XL-5/W1</prism:volume>
+                <dc:title>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</dc:title>
+                <dc:identifier>DOI 10.5194/isprsarchives-XL-5-W1-87-2013</dc:identifier>
+                <dcterms:alternative>Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci.</dcterms:alternative>
+                <dc:identifier>ISSN 2194-9034</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Garagnani</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manferdini</foaf:surname>
+                        <foaf:givenName>A. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_14"/>
+        <link:link rdf:resource="#item_15"/>
+        <dc:subject>BIM</dc:subject>
+        <dc:subject>3D reconstruction</dc:subject>
+        <dc:title>Parametric accuracy: building information modeling process applied to the cultural heritage preservation</dc:title>
+        <dcterms:abstract>Since their introduction, modeling tools aimed to architectural design evolved in today’s “digital multi-purpose drawing boards” based on enhanced parametric elements able to originate whole buildings within virtual environments. Semantic splitting and elements topology are features that allow objects to be “intelligent” (i.e. self-aware of what kind of element they are and with whom they can interact), representing this way basics of Building Information Modeling (BIM), a coordinated, consistent and always up to date workflow improved in order to reach higher quality, reliability and cost reductions all over the design process. Even if BIM was originally intended for new architectures, its attitude to store semantic inter-related information can be successfully applied to existing buildings as well, especially if they deserve particular care such as Cultural Heritage sites. BIM engines can easily manage simple parametric geometries, collapsing them to standard primitives connected through hierarchical relationships: however, when components are generated by existing morphologies, for example acquiring point clouds by digital photogrammetry or laser scanning equipment, complex abstractions have to be introduced while remodeling elements by hand, since automatic feature extraction in available software is still not effective. In order to introduce a methodology destined to process point cloud data in a BIM environment with high accuracy, this paper describes some experiences on monumental sites documentation, generated through a plug-in written for Autodesk Revit and codenamed GreenSpider after its capability to layout points in space as if they were nodes of an ideal cobweb.</dcterms:abstract>
+        <dc:date>2013</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>PARAMETRIC ACCURACY</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://isprs-archives.copernicus.org/articles/XL-5-W1/87/2013/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:24:17</dcterms:dateSubmitted>
+        <bib:pages>87-92</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_14">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В этой статье представлены инструменты моделирования, направленные на архитектурный дизайн, основанные на усовершенствованных параметрических элементах, способных создавать целые здания в виртуальных средах.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_15">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/15/Garagnani и Manferdini - 2013 - PARAMETRIC ACCURACY BUILDING INFORMATION MODELING.pdf"/>
+        <dc:title>Garagnani и Manferdini - 2013 - PARAMETRIC ACCURACY BUILDING INFORMATION MODELING.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://isprs-archives.copernicus.org/articles/XLII-2-W5/539/2017/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>XLII-2/W5</prism:volume>
+                <dc:title>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</dc:title>
+                <dc:identifier>DOI 10.5194/isprs-archives-XLII-2-W5-539-2017</dc:identifier>
+                <dcterms:alternative>Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci.</dcterms:alternative>
+                <dc:identifier>ISSN 2194-9034</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Murphy</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corns</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cahill</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eliashvili</foaf:surname>
+                        <foaf:givenName>K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chenau</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pybus</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shaw</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Devlin</foaf:surname>
+                        <foaf:givenName>G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Deevy</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Truong-Hong</foaf:surname>
+                        <foaf:givenName>L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_17"/>
+        <link:link rdf:resource="#item_18"/>
+        <dc:subject>BIM</dc:subject>
+        <dc:subject>historic buildings</dc:subject>
+        <dc:title>Developing historic building information modelling guidelines and procedures for architectural heritage in ireland</dc:title>
+        <dcterms:abstract>Cultural heritage researchers have recently begun applying Building Information Modelling (BIM) to historic buildings. The model is comprised of intelligent objects with semantic attributes which represent the elements of a building structure and are organised within a 3D virtual environment. Case studies in Ireland are used to test and develop the suitable systems for (a) data capture/digital surveying/processing (b) developing library of architectural components and (c) mapping these architectural components onto the laser scan or digital survey to relate the intelligent virtual representation of a historic structure (HBIM). While BIM platforms have the potential to create a virtual and intelligent representation of a building, its full exploitation and use is restricted to narrow set of expert users with access to costly hardware, software and skills. The testing of open BIM approaches in particular IFCs and the use of game engine platforms is a fundamental component for developing much wider dissemination. The semantically enriched model can be transferred into a WEB based game engine platform.</dcterms:abstract>
+        <dc:date>2017</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://isprs-archives.copernicus.org/articles/XLII-2-W5/539/2017/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:24:23</dcterms:dateSubmitted>
+        <bib:pages>539-546</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_17">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Исследователи культурного наследия недавно начали применять моделирование информации о зданиях (BIM) к историческим зданиям. Модель состоит из интеллектуальных объектов с семантическими атрибутами, которые представляют элементы структуры здания и организованы в 3D виртуальной среде&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_18">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/18/Murphy и др. - 2017 - DEVELOPING HISTORIC BUILDING INFORMATION MODELLING.pdf"/>
+        <dc:title>Murphy и др. - 2017 - DEVELOPING HISTORIC BUILDING INFORMATION MODELLING.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0924271614000501">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:09242716"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Colomina</foaf:surname>
+                        <foaf:givenName>I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Molina</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_20"/>
+        <link:link rdf:resource="#item_21"/>
+        <dc:subject>3D reconstruction</dc:subject>
+        <dc:subject>ArchitecturalHeritage</dc:subject>
+        <dc:subject>Photogrammetry</dc:subject>
+        <dc:title>Unmanned aerial systems for photogrammetry and remote sensing: A review</dc:title>
+        <dcterms:abstract>We discuss the evolution and state-of-the-art of the use of Unmanned Aerial Systems (UAS) in the ﬁeld of Photogrammetry and Remote Sensing (PaRS). UAS, Remotely-Piloted Aerial Systems, Unmanned Aerial Vehicles or simply, drones are a hot topic comprising a diverse array of aspects including technology, privacy rights, safety and regulations, and even war and peace. Modern photogrammetry and remote sensing identiﬁed the potential of UAS-sourced imagery more than thirty years ago. In the last ﬁve years, these two sister disciplines have developed technology and methods that challenge the current aeronautical regulatory framework and their own traditional acquisition and processing methods. Navety and ingenuity have combined off-the-shelf, low-cost equipment with sophisticated computer vision, robotics and geomatic engineering. The results are cm-level resolution and accuracy products that can be generated even with cameras costing a few-hundred euros. In this review article, following a brief historic background and regulatory status analysis, we review the recent unmanned aircraft, sensing, navigation, orientation and general data processing developments for UAS photogrammetry and remote sensing with emphasis on the nano-micro-mini UAS segment.</dcterms:abstract>
+        <dc:date>2014</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Unmanned aerial systems for photogrammetry and remote sensing</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0924271614000501</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:25:42</dcterms:dateSubmitted>
+        <bib:pages>79-97</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:09242716">
+        <prism:volume>92</prism:volume>
+        <dc:title>ISPRS Journal of Photogrammetry and Remote Sensing</dc:title>
+        <dc:identifier>DOI 10.1016/j.isprsjprs.2014.02.013</dc:identifier>
+        <dcterms:alternative>ISPRS Journal of Photogrammetry and Remote Sensing</dcterms:alternative>
+        <dc:identifier>ISSN 09242716</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_20">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Современная фотограмметрия и дистанционное зондирование, выявление потенциала изображений.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_21">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/21/Colomina и Molina - 2014 - Unmanned aerial systems for photogrammetry and rem.pdf"/>
+        <dc:title>Colomina и Molina - 2014 - Unmanned aerial systems for photogrammetry and rem.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0305440316000042">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:03054403"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sapirstein</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_23"/>
+        <link:link rdf:resource="#item_24"/>
+        <dc:subject>3D reconstruction</dc:subject>
+        <dc:subject>ArchitecturalHeritage</dc:subject>
+        <dc:subject>historic buildings</dc:subject>
+        <dc:title>Accurate measurement with photogrammetry at large sites</dc:title>
+        <dcterms:abstract>Photogrammetry has become increasingly popular as a low-cost method for documenting cultural heritage and archaeological excavations. However, we have yet to establish best practices for its implementation at the site, or methods for assessing the accuracy of the resulting 3D measurements. This article presents a recent study of the Temple of Hera at Olympia, where a 25 Â 55 m area was recorded at 1 mm resolution using photogrammetry both for survey and 3D reconstruction. Coded targets were set up throughout the site, which was then photographed in two phases. First, a site-wide survey established the locations of the network of targets. Second, sets of close-up photographs for detailed 3D reconstruction of the site were registered to the global survey via the targets. This technique developed at Olympia improves measurement accuracy by an order of magnitude compared to previous implementations, with a precision of at least 1 part in 50,000, and 95% of the surfaces located accurately within 2e3 mm.</dcterms:abstract>
+        <dc:date>2016</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0305440316000042</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:36:54</dcterms:dateSubmitted>
+        <bib:pages>137-145</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:03054403">
+        <prism:volume>66</prism:volume>
+        <dc:title>Journal of Archaeological Science</dc:title>
+        <dc:identifier>DOI 10.1016/j.jas.2016.01.002</dc:identifier>
+        <dcterms:alternative>Journal of Archaeological Science</dcterms:alternative>
+        <dc:identifier>ISSN 03054403</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_23">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В данной статье представлено недавнее исследование храма Геры в Олимпии, где 25x55 м были записаны с разрешением 1 мм с использованием фотограмметрии как для обзора, так и для 3D-реконструкции. Кодированные метки были установлены по всему месту, которые затем фотографировались в две фазы.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_24">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/24/Sapirstein - 2016 - Accurate measurement with photogrammetry at large .pdf"/>
+        <dc:title>Sapirstein - 2016 - Accurate measurement with photogrammetry at large .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0926580516300280">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:09265805"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheng</foaf:surname>
+                        <foaf:givenName>Jack C.P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lu</foaf:surname>
+                        <foaf:givenName>Qiqi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Deng</foaf:surname>
+                        <foaf:givenName>Yichuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_26"/>
+        <link:link rdf:resource="#item_27"/>
+        <dc:subject>BIM</dc:subject>
+        <dc:subject>CIM</dc:subject>
+        <dc:title>Analytical review and evaluation of civil information modeling</dc:title>
+        <dcterms:abstract>Building information modeling (BIM) has been widely adopted in the building industry. However, the use of BIM in civil infrastructure facilities, sometimes referred to as civil information modeling (CIM) has been slow in its application. Industry and academia are increasingly putting effort into CIM study and implementation, but so far there has been no comprehensive review of their effort in this regard. This paper presents a framework to evaluate the current practices of CIM adoption for various civil infrastructure facilities. In this study, civil infrastructure facilities were divided into nine categories for evaluation and the effort with regard to CIM adoption for each civil infrastructure category was evaluated in six aspects. Based on the evaluation and comparison results of 171 case studies and 62 academic papers on CIM, research gaps were identiﬁed and recommendations were made. For example, the ﬁndings show that data schema development for civil infrastructure facilities other than bridges, roads, and tunnels are lacking. The results and research gaps revealed by this study are useful for both researchers and practitioners.</dcterms:abstract>
+        <dc:date>2016</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0926580516300280</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:37:00</dcterms:dateSubmitted>
+        <bib:pages>31-47</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:09265805">
+        <prism:volume>67</prism:volume>
+        <dc:title>Automation in Construction</dc:title>
+        <dc:identifier>DOI 10.1016/j.autcon.2016.02.006</dc:identifier>
+        <dcterms:alternative>Automation in Construction</dcterms:alternative>
+        <dc:identifier>ISSN 09265805</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_26">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В данной статье представлена методика оценки текущих практик принятия CIM для различных объектов гражданской инфраструктуры.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_27">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/27/Cheng и др. - 2016 - Analytical review and evaluation of civil informat.pdf"/>
+        <dc:title>Cheng и др. - 2016 - Analytical review and evaluation of civil informat.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0010448505000400">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00104485"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sudarsan</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fenves</foaf:surname>
+                        <foaf:givenName>S.J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sriram</foaf:surname>
+                        <foaf:givenName>R.D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_29"/>
+        <link:link rdf:resource="#item_30"/>
+        <dc:subject>3D reconstruction</dc:subject>
+        <dc:subject>ArchitecturalHeritage</dc:subject>
+        <dc:subject>science</dc:subject>
+        <dc:title>A product information modeling framework for product lifecycle management</dc:title>
+        <dcterms:abstract>The Product Lifecycle Management (PLM) concept holds the promise of seamlessly integrating all the information produced throughout all phases of a product’s life cycle to everyone in an organization at every managerial and technical level, along with key suppliers and customers. PLM systems are tools that implement the PLM concept. As such, they need the capability to serve up the information referred to above, and they need to ensure the cohesion and traceability of product data.</dcterms:abstract>
+        <dc:date>2005</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0010448505000400</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:44:25</dcterms:dateSubmitted>
+        <dc:description>Number: 13</dc:description>
+        <bib:pages>1399-1411</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00104485">
+        <prism:volume>37</prism:volume>
+        <dc:title>Computer-Aided Design</dc:title>
+        <dc:identifier>DOI 10.1016/j.cad.2005.02.010</dc:identifier>
+        <prism:number>13</prism:number>
+        <dcterms:alternative>Computer-Aided Design</dcterms:alternative>
+        <dc:identifier>ISSN 00104485</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_29">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В этой статье представлены исследования концепций управления жизненным циклом продукта (Product Lifecycle Management, PLM) обещает бесшовное интегрирование всей информации, производимой на всех этапах жизненного цикла продукта, всем сотрудникам организации на всех уровнях управления и технического обслуживания, а также ключевым поставщикам и клиентам&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_30">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/30/Sudarsan и др. - 2005 - A product information modeling framework for produ.pdf"/>
+        <dc:title>Sudarsan и др. - 2005 - A product information modeling framework for produ.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0926580514000612">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>43</prism:volume>
+                <dc:title>Automation in Construction</dc:title>
+                <dc:identifier>DOI 10.1016/j.autcon.2014.03.009</dc:identifier>
+                <dcterms:alternative>Automation in Construction</dcterms:alternative>
+                <dc:identifier>ISSN 09265805</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miettinen</foaf:surname>
+                        <foaf:givenName>Reijo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paavola</foaf:surname>
+                        <foaf:givenName>Sami</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_32"/>
+        <link:link rdf:resource="#item_33"/>
+        <dc:subject>BIM</dc:subject>
+        <dc:subject>science</dc:subject>
+        <dc:title>Beyond the BIM utopia: Approaches to the development and implementation of building information modeling</dc:title>
+        <dcterms:abstract>Building information modeling (BIM) refers to a combination or a set of technologies and organizational solutions that are expected to increase interorganizational and disciplinary collaboration in the construction industry and to improve the productivity and quality of the design, construction, and maintenance of buildings. In this paper we analyze ﬁrst the rhetorical–promotional dimension of the BIM implementation sometimes characterized as a “BIM utopia.” Second, we analyze the views of the enhancement of BIM implementation. Although BIM visions and promises are needed for BIM implementation, they need to be complemented with a more realistic view of conditions of the implementation. For this we outline an activity–theoretical and evolutionary view by drawing conceptual tools from science and technology studies and other relevant social scientiﬁc literature. According to this view, in addition to standards and guidelines underlined by normative approaches, local experimentation and continuous learning play a central role in the implementation of BIM.</dcterms:abstract>
+        <dc:date>2014</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Beyond the BIM utopia</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0926580514000612</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:47:54</dcterms:dateSubmitted>
+        <bib:pages>84-91</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_32">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В этой статье описывается технололгия &quot;Building Information Modeling (BIM)&quot;, котрая относится к сочетанию или набору технологий и организационных решений, которые предполагается, должны способствовать увеличению межорганизационного и дисциплинарного взаимодействия в строительной отрасли.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_33">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/33/Miettinen и Paavola - 2014 - Beyond the BIM utopia Approaches to the developme.pdf"/>
+        <dc:title>Miettinen и Paavola - 2014 - Beyond the BIM utopia Approaches to the developme.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S092658051300191X">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>38</prism:volume>
+                <dc:title>Automation in Construction</dc:title>
+                <dc:identifier>DOI 10.1016/j.autcon.2013.10.023</dc:identifier>
+                <dcterms:alternative>Automation in Construction</dcterms:alternative>
+                <dc:identifier>ISSN 09265805</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Volk</foaf:surname>
+                        <foaf:givenName>Rebekka</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stengel</foaf:surname>
+                        <foaf:givenName>Julian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schultmann</foaf:surname>
+                        <foaf:givenName>Frank</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_35"/>
+        <link:link rdf:resource="#item_36"/>
+        <dc:subject>BIM</dc:subject>
+        <dc:subject>historic buildings</dc:subject>
+        <dc:title>Building Information Modeling (BIM) for existing buildings — Literature review and future needs</dc:title>
+        <dcterms:abstract>While BIM processes are established for new buildings, the majority of existing buildings is not maintained, refurbished or deconstructed with BIM yet. Promising beneﬁts of efﬁcient resource management motivate research to overcome uncertainties of building condition and deﬁcient documentation prevalent in existing buildings.</dcterms:abstract>
+        <dc:date>2014</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S092658051300191X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-29 05:47:58</dcterms:dateSubmitted>
+        <bib:pages>109-127</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_35">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;В этой статье представлены иследования применения информационного моделирования зданий (BIM) в контексте существующих зданий.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_36">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/36/Volk и др. - 2014 - Building Information Modeling (BIM) for existing b.pdf"/>
+        <dc:title>Volk и др. - 2014 - Building Information Modeling (BIM) for existing b.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
